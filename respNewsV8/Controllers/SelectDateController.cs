@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using respNewsV8.Models;
-using respNewsV8.Services;
 
 namespace respNewsV8.Controllers
 {
@@ -16,43 +14,33 @@ namespace respNewsV8.Controllers
             _sql = sql;
         }
 
-
-        [HttpGet("{date}")]
-        public async Task<IActionResult> GetById(string date)
+        // -https://localhost:44314/api/SelectDate/1/2024-12-19
+        [HttpGet("{langId}/{date}")]
+        public async Task<IActionResult> GetByDate(int langId,string date)
         {
-            // Gelen string tarihi sadece "yyyy-MM-dd" formatında parse et
-            DateTime parsedDate = DateTime.ParseExact(date, "yyyy-MM-dd", null);
+            if (!DateTime.TryParseExact(date, "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out DateTime parsedDate))
+            {
+                return BadRequest("Tarih formatı geçersiz. Lütfen 'yyyy-MM-dd' formatında bir tarih gönderin.");
+            }
 
-            // NewsDate'in sadece tarih kısmını karşılaştır
             var results = await _sql.News
-                .Where(x => x.NewsDate >= parsedDate && x.NewsDate < parsedDate.AddDays(1)) // Tarihi, bir sonraki güne kadar al
-                .Select(n => new News
-                {
-                    NewsId = n.NewsId,
-                    NewsTitle = n.NewsTitle,
-                    NewsContetText = n.NewsContetText,
-                    NewsDate = n.NewsDate,
-                    NewsCategoryId = n.NewsCategoryId,
-                    NewsCategory = n.NewsCategory,
-                    NewsLangId = n.NewsLangId,
-                    NewsLang = n.NewsLang,
-                    NewsVisibility = n.NewsVisibility,
-                    NewsStatus = n.NewsStatus,
-                    NewsRating = n.NewsRating,
-                    NewsUpdateDate = n.NewsUpdateDate,
-                    NewsViewCount = n.NewsViewCount,
-                    NewsYoutubeLink = n.NewsYoutubeLink,
-                    NewsPhotos = n.NewsPhotos,
-                    NewsVideos = n.NewsVideos,
-                    //NewsTags = n.NewsTags,
-                    NewsOwner = n.NewsOwner
-                })
-                .ToListAsync();
+     .Include(x => x.NewsPhotos)
+     .Where(x => x.NewsLangId == langId)
+     .Where(x => EF.Functions.DateDiffDay(x.NewsDate, parsedDate) == 0)
+     .Select(n => new
+     {
+         n.NewsId,
+         n.NewsTitle,
+         n.NewsContetText,
+         n.NewsLangId,
+         n.NewsDate,
+         n.NewsTags,
+         PhotoUrl = n.NewsPhotos.Select(p => p.PhotoUrl).Take(1).ToList() 
+     })
+     .ToListAsync();
+
 
             return Ok(results);
         }
-
-
-
     }
 }

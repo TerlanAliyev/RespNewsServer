@@ -31,7 +31,7 @@ namespace respNewsV8.Controllers
         [HttpGet("video/{id}")]
         public IActionResult GetById(int id)
         {
-            var video = _sql.Ytvideos.SingleOrDefault(x=>x.VideoId==id);
+            var video = _sql.Ytvideos.SingleOrDefault(x => x.VideoId == id);
             return Ok(video);
         }
 
@@ -60,13 +60,13 @@ namespace respNewsV8.Controllers
 
 
         [HttpPut("edit/{id}")]
-        public IActionResult Put(int id,Ytvideo ytvideo)
+        public IActionResult Put(int id, Ytvideo ytvideo)
         {
 
-            var old = _sql.Ytvideos.SingleOrDefault(x=>x.VideoId==id);
-            old.VideoTitle=ytvideo.VideoTitle;  
-            old.VideoUrl=ytvideo.VideoUrl;  
-            old.VideoDate=ytvideo.VideoDate;
+            var old = _sql.Ytvideos.SingleOrDefault(x => x.VideoId == id);
+            old.VideoTitle = ytvideo.VideoTitle;
+            old.VideoUrl = ytvideo.VideoUrl;
+            old.VideoDate = ytvideo.VideoDate;
 
 
 
@@ -77,10 +77,10 @@ namespace respNewsV8.Controllers
         [HttpDelete("delete/{id}")]
         public IActionResult Delete(int id)
         {
-            var a = _sql.Ytvideos.SingleOrDefault(x=>x.VideoId==id);
+            var a = _sql.Ytvideos.SingleOrDefault(x => x.VideoId == id);
             _sql.Ytvideos.Remove(a);
             _sql.SaveChanges();
             return Ok();
         }
-        }
+    }
 }

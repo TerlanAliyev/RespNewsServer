@@ -21,8 +21,6 @@ public partial class News
 
     public bool? NewsStatus { get; set; }
 
-    public int? NewsViewCount { get; set; }
-
     public bool? NewsVisibility { get; set; }
 
     public DateTime? NewsUpdateDate { get; set; }
@@ -31,9 +29,11 @@ public partial class News
 
     public int? NewsOwnerId { get; set; }
 
-    public string? NewsTags { get; set; }
+    public int? NewsViewCount { get; set; }
 
     public int? NewsAdminId { get; set; }
+
+    public string? NewsTags { get; set; }
 
     public virtual User? NewsAdmin { get; set; }
 

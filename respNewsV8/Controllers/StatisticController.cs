@@ -47,17 +47,6 @@ namespace respNewsV8.Controllers
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
         //ALL (GET)
         [HttpGet("GetStatistics")]
         public async Task<IActionResult> GetStatistics()
@@ -111,7 +100,7 @@ namespace respNewsV8.Controllers
                 var statistic = new Statisticss
                 {
                     VisitorIp = visitorIP,
-                    VisitorCountry = locationData?.CountryName, 
+                    VisitorCountry = locationData?.CountryName,
                     VisitorCity = locationData?.City,
                     VisitDate = DateTime.Now,
                     IsMobile = isMobile,
@@ -193,7 +182,7 @@ namespace respNewsV8.Controllers
             {
                 // Günlük ziyaret sayısı
                 var dailyVisits = await _context.Statisticsses
-                    .GroupBy(s => s.VisitDate.Date) 
+                    .GroupBy(s => s.VisitDate.Date)
                     .Select(g => new
                     {
                         Date = g.Key,
@@ -203,7 +192,7 @@ namespace respNewsV8.Controllers
 
                 // Aylık ziyaret sayısı
                 var monthlyVisits = await _context.Statisticsses
-                    .GroupBy(s => new { s.VisitDate.Year, s.VisitDate.Month }) 
+                    .GroupBy(s => new { s.VisitDate.Year, s.VisitDate.Month })
                     .Select(g => new
                     {
                         Year = g.Key.Year,
@@ -318,7 +307,7 @@ namespace respNewsV8.Controllers
                     //.Include(n => n.NewsTags)
                     .Where(n => n.NewsDate >= startDate)
                     .OrderByDescending(n => n.NewsViewCount)
-                    .OrderByDescending(n=>n.NewsDate)
+                    .OrderByDescending(n => n.NewsDate)
                     .OrderByDescending(n => n.NewsRating)
                     .Select(n => new
                     {

@@ -34,8 +34,3 @@ public class GeoLocationService
         }
     }
 }
-
-
-
-
-

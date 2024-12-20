@@ -15,8 +15,6 @@ public partial class Statisticss
 
     public DateTime VisitDate { get; set; }
 
-    public int? VisitCount { get; set; }
-
     public bool? IsMobile { get; set; }
 
     public bool? IsDesktop { get; set; }

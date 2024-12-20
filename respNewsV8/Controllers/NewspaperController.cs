@@ -119,11 +119,9 @@ namespace respNewsV8.Controllers
 
 
         [HttpPut("edit/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] Newspaper newspaper)
+        public IActionResult UpdateNews(int id, [FromForm] newspaperDto newspaperDto)
         {
-            // Haberi bul
-            var existingNews = _sql.Newspapers
-                .SingleOrDefault(x => x.NewspaperId == id);
+            var existingNews = _sql.Newspapers.SingleOrDefault(x => x.NewspaperId == id);
 
             if (existingNews == null)
             {
@@ -131,19 +129,49 @@ namespace respNewsV8.Controllers
             }
 
             // Haber detaylarını güncelle
-            existingNews.NewspaperTitle = newspaper.NewspaperTitle;
-            existingNews.NewspaperLinkFlip = newspaper.NewspaperLinkFlip;
-            existingNews.NewspaperDate = newspaper.NewspaperDate;
-            existingNews.NewspaperStatus = newspaper.NewspaperStatus;
-            existingNews.NewspaperPrice = newspaper.NewspaperPrice;
-            existingNews.NewspaperCoverUrl = newspaper.NewspaperCoverUrl;
-            existingNews.NewspaperPdfUrl = newspaper.NewspaperPdfUrl;
+            existingNews.NewspaperTitle = newspaperDto.NewspaperTitle;
+            existingNews.NewspaperLinkFlip = newspaperDto.NewspaperLinkFlip;
+            existingNews.NewspaperDate = newspaperDto.NewspaperDate;
+            existingNews.NewspaperStatus = newspaperDto.NewspaperStatus;
+            existingNews.NewspaperPrice = newspaperDto.NewspaperPrice;
 
-            // Veritabanına kaydet
+            // Resim yükleme işlemi
+            if (newspaperDto.NewspaperCoverUrl != null)
+            {
+                var uploadsFolder = Path.Combine("wwwroot", "uploads", "images");
+                Directory.CreateDirectory(uploadsFolder);
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + newspaperDto.NewspaperCoverUrl.FileName;
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    newspaperDto.NewspaperCoverUrl.CopyTo(stream);
+                }
+
+                existingNews.NewspaperCoverUrl = $"/uploads/images/{uniqueFileName}";
+            }
+
+            // PDF yükleme işlemi
+            if (newspaperDto.NewspaperPdfFile != null)
+            {
+                var uploadsFolder = Path.Combine("wwwroot", "uploads", "pdfs");
+                Directory.CreateDirectory(uploadsFolder);
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + newspaperDto.NewspaperPdfFile.FileName;
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    newspaperDto.NewspaperPdfFile.CopyTo(stream);
+                }
+
+                existingNews.NewspaperPdfUrl = $"/uploads/pdfs/{uniqueFileName}";
+            }
+
             _sql.SaveChanges();
 
             return Ok(new { Message = "Gazete başarıyla güncellendi." });
         }
+
 
 
 

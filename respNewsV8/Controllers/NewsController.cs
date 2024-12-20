@@ -163,15 +163,23 @@ namespace respNewsV8.Controllers
         }
 
 
-        //Top 10 news
-        [HttpGet("top/language/{langCode}")]
-        public IActionResult GetTop(int langCode)
+
+
+
+
+        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Top 10 news -https://localhost:44314/api/news/topDay/language/1
+        [HttpGet("topDay/language/{langCode}")]
+        public IActionResult GetDailyTop(int langCode)
         {
-            int languageId = langCode;
-            if (languageId == null)
+            if (langCode <= 0)
             {
-                return NotFound($"Dil kodu '{langCode}' için bir ID bulunamadı.");
+                return BadRequest("Geçerli bir dil kodu giriniz.");
             }
+
+            // Bugünün tarihi
+            var today = DateTime.Now.Date;
 
             var newsList = _sql.News
                 .Include(n => n.NewsCategory)
@@ -179,9 +187,11 @@ namespace respNewsV8.Controllers
                 .Include(n => n.NewsPhotos)
                 .Include(n => n.NewsOwner)
                 .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
-                .Where(n => n.NewsLangId == languageId)
-                .OrderByDescending(x => x.NewsDate)
-                .ThenBy(x => x.NewsRating)
+                .Where(n => n.NewsLangId == langCode)
+                .Where(n => n.NewsDate >= today && n.NewsDate < today.AddDays(1)) // Bugünün haberleri
+                .OrderByDescending(x => x.NewsViewCount) // En çok izlenenleri sıralar
+                .ThenByDescending(x => x.NewsDate) // Görülme sayısı eşitse en yeni haber önce gelir
+                .ThenBy(x => x.NewsRating) // En yüksek puanları gösterir
                 .Select(n => new
                 {
                     n.NewsId,
@@ -204,7 +214,163 @@ namespace respNewsV8.Controllers
 
             if (!newsList.Any())
             {
-                return NotFound($"Dil kodu '{langCode}' için uygun haber bulunamadı.");
+                return NotFound($"Dil kodu '{langCode}' için bugün uygun haber bulunamadı.");
+            }
+
+            return Ok(newsList);
+        }
+
+
+        //Top 10 news -https://localhost:44314/api/news/topWeek/language/1
+        [HttpGet("topWeek/language/{langCode}")]
+        public IActionResult GetWeeklyTop(int langCode)
+        {
+            if (langCode <= 0)
+            {
+                return BadRequest("Geçerli bir dil kodu giriniz.");
+            }
+
+            var startOfWeek = DateTime.Now.AddDays(-(int)DateTime.Now.DayOfWeek);
+            var endOfWeek = startOfWeek.AddDays(6);
+
+            var newsList = _sql.News
+                .Include(n => n.NewsCategory)
+                .Include(n => n.NewsLang)
+                .Include(n => n.NewsPhotos)
+                .Include(n => n.NewsOwner)
+                .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
+                .Where(n => n.NewsLangId == langCode)
+                .Where(n => n.NewsDate >= startOfWeek && n.NewsDate <= endOfWeek) // Bu haftanın haberleri
+                .OrderByDescending(x => x.NewsViewCount) // En çok izlenenleri sıralar
+                .ThenByDescending(x => x.NewsDate) // Görülme sayısı eşitse en yeni haber önce gelir
+                .ThenBy(x => x.NewsRating) // En yüksek puanları gösterir
+                .Select(n => new
+                {
+                    n.NewsId,
+                    n.NewsTitle,
+                    n.NewsContetText,
+                    n.NewsDate,
+                    n.NewsCategoryId,
+                    n.NewsCategory,
+                    n.NewsLangId,
+                    n.NewsLang,
+                    n.NewsRating,
+                    n.NewsOwner,
+                    n.NewsUpdateDate,
+                    n.NewsViewCount,
+                    n.NewsYoutubeLink,
+                    n.NewsTags,
+                    n.NewsPhotos,
+                    n.NewsVideos
+                }).Take(10).ToList();
+
+            if (!newsList.Any())
+            {
+                return NotFound($"Dil kodu '{langCode}' için bu hafta uygun haber bulunamadı.");
+            }
+
+            return Ok(newsList);
+        }
+
+
+        //Top 10 news -https://localhost:44314/api/news/topMonth/language/1
+        [HttpGet("topMonth/language/{langCode}")]
+        public IActionResult GetTopMonth(int langCode)
+        {
+            if (langCode <= 0)
+            {
+                return BadRequest("Geçerli bir dil kodu giriniz.");
+            }
+
+            // Bu ayın başlangıç ve bitiş tarihlerini hesapla
+            var startOfMonth = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            var endOfMonth = startOfMonth.AddMonths(1).AddDays(-1);
+
+            var newsList = _sql.News
+                .Include(n => n.NewsCategory)
+                .Include(n => n.NewsLang)
+                .Include(n => n.NewsPhotos)
+                .Include(n => n.NewsOwner)
+                .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
+                .Where(n => n.NewsLangId == langCode)
+                .Where(n => n.NewsDate >= startOfMonth && n.NewsDate <= endOfMonth) // Bu ayın haberleri
+                .OrderByDescending(x => x.NewsViewCount) // En çok izlenenleri sıralar
+                .ThenByDescending(x => x.NewsDate) // Görülme sayısı eşitse en yeni haber önce gelir
+                .ThenBy(x => x.NewsRating) // En yüksek puanları gösterir
+                .Select(n => new
+                {
+                    n.NewsId,
+                    n.NewsTitle,
+                    n.NewsContetText,
+                    n.NewsDate,
+                    n.NewsCategoryId,
+                    n.NewsCategory,
+                    n.NewsLangId,
+                    n.NewsLang,
+                    n.NewsRating,
+                    n.NewsOwner,
+                    n.NewsUpdateDate,
+                    n.NewsViewCount,
+                    n.NewsYoutubeLink,
+                    n.NewsTags,
+                    n.NewsPhotos,
+                    n.NewsVideos
+                }).Take(10).ToList();
+
+            if (!newsList.Any())
+            {
+                return NotFound($"Dil kodu '{langCode}' için bu ay uygun haber bulunamadı.");
+            }
+
+            return Ok(newsList);
+        }
+
+        //-https://localhost:44314/api/news/topYear/language/1
+        [HttpGet("topYear/language/{langCode}")]
+        public IActionResult GetTopYear(int langCode)
+        {
+            if (langCode <= 0)
+            {
+                return BadRequest("Geçerli bir dil kodu giriniz.");
+            }
+
+            // Bu yılın başlangıç tarihi
+            var startOfYear = new DateTime(DateTime.Now.Year, 1, 1);
+
+            var newsList = _sql.News
+                .Include(n => n.NewsCategory)
+                .Include(n => n.NewsLang)
+                .Include(n => n.NewsPhotos)
+                .Include(n => n.NewsOwner)
+                .Where(n => n.NewsStatus == true && n.NewsVisibility == true)
+                .Where(n => n.NewsLangId == langCode)
+                .Where(n => n.NewsDate >=startOfYear) // Bu ayın haberleri
+                .OrderByDescending(x => x.NewsViewCount) // En çok izlenenleri sıralar
+                .ThenByDescending(x => x.NewsDate) // Görülme sayısı eşitse en yeni haber önce gelir
+                .ThenBy(x => x.NewsRating) // En yüksek puanları gösterir
+                .Select(n => new
+                {
+                    n.NewsId,
+                    n.NewsTitle,
+                    n.NewsContetText,
+                    n.NewsDate,
+                    n.NewsCategoryId,
+                    n.NewsCategory,
+                    n.NewsLangId,
+                    n.NewsLang,
+                    n.NewsRating,
+                    n.NewsOwner,
+                    n.NewsUpdateDate,
+                    n.NewsViewCount,
+                    n.NewsYoutubeLink,
+                    n.NewsTags,
+                    n.NewsPhotos,
+                    n.NewsVideos
+                }).Take(10).ToList();
+
+            if (!newsList.Any())
+            {
+                return NotFound($"Dil kodu '{langCode}' için bu ay uygun haber bulunamadı.");
             }
 
             return Ok(newsList);
@@ -212,7 +378,7 @@ namespace respNewsV8.Controllers
 
 
 
-
+        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -653,9 +819,8 @@ namespace respNewsV8.Controllers
         // [Authorize(Roles = "Admin")]
 
         [HttpPut("id/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] UpdateNewsDto updateNewsDto)
+        public IActionResult UpdateNews(int id, [FromForm] News news)
         {
-            // Haberi bul
             var existingNews = _sql.News
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
@@ -671,40 +836,38 @@ namespace respNewsV8.Controllers
             }
 
             // Haber detaylarını güncelle
-            existingNews.NewsTitle = updateNewsDto.NewsTitle;
-            existingNews.NewsContetText = updateNewsDto.NewsContetText;
-            existingNews.NewsDate = updateNewsDto.NewsDate;
-            existingNews.NewsCategoryId = updateNewsDto.NewsCategoryId;
-            existingNews.NewsLangId = updateNewsDto.NewsLangId;
-            existingNews.NewsVisibility = updateNewsDto.NewsVisibility;
-            existingNews.NewsRating = updateNewsDto.NewsRating;
-            existingNews.NewsYoutubeLink = updateNewsDto.NewsYoutubeLink;
+            existingNews.NewsTitle = news.NewsTitle ?? existingNews.NewsTitle;
+            existingNews.NewsContetText = news.NewsContetText ?? existingNews.NewsContetText;
+            existingNews.NewsDate = news.NewsDate ?? existingNews.NewsDate;
+            existingNews.NewsCategoryId = news.NewsCategoryId ?? existingNews.NewsCategoryId;
+            existingNews.NewsLangId = news.NewsLangId ?? existingNews.NewsLangId;
+            existingNews.NewsVisibility = news.NewsVisibility ?? existingNews.NewsVisibility;
+            existingNews.NewsRating = news.NewsRating ?? existingNews.NewsRating;
+            existingNews.NewsYoutubeLink = news.NewsYoutubeLink ?? existingNews.NewsYoutubeLink;
+            existingNews.NewsOwnerId = news.NewsOwnerId ?? existingNews.NewsOwnerId;
+            existingNews.NewsAdminId = news.NewsAdminId ?? existingNews.NewsAdminId;
+            existingNews.NewsTags = news.NewsTags ?? existingNews.NewsTags;
 
             // Haber fotoğraflarını güncelle
-            if (updateNewsDto.NewsPhotos != null)
+            if (news.NewsPhotos != null && news.NewsPhotos.Count > 0)
             {
                 existingNews.NewsPhotos.Clear();
-                foreach (var photo in updateNewsDto.NewsPhotos)
+                foreach (var photo in news.NewsPhotos)
                 {
                     existingNews.NewsPhotos.Add(new NewsPhoto { PhotoUrl = photo.PhotoUrl });
                 }
             }
 
             // Haber videolarını güncelle
-            if (updateNewsDto.NewsVideos != null)
+            if (news.NewsVideos != null && news.NewsVideos.Count > 0)
             {
                 existingNews.NewsVideos.Clear();
-                foreach (var video in updateNewsDto.NewsVideos)
+                foreach (var video in news.NewsVideos)
                 {
                     existingNews.NewsVideos.Add(new NewsVideo { VideoUrl = video.VideoUrl });
                 }
             }
 
-            // Haber sahibi ve admini güncelle
-            existingNews.NewsOwnerId = updateNewsDto.NewsOwnerId;
-            existingNews.NewsAdminId = updateNewsDto.NewsAdminId;
-
-            // Veritabanına kaydet
             _sql.SaveChanges();
 
             return Ok(new { Message = "Haber başarıyla güncellendi." });

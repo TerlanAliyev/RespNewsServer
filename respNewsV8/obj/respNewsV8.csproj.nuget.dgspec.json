@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XayalSadiqovBaxtiyar\\Desktop\\16\\respNews-0c33c9fb4b06d533c633699b175394f44b1df04b\\respNewsV8\\respNewsV8.csproj": {}
+    "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\respNewsV8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XayalSadiqovBaxtiyar\\Desktop\\16\\respNews-0c33c9fb4b06d533c633699b175394f44b1df04b\\respNewsV8\\respNewsV8.csproj": {
+    "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\respNewsV8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XayalSadiqovBaxtiyar\\Desktop\\16\\respNews-0c33c9fb4b06d533c633699b175394f44b1df04b\\respNewsV8\\respNewsV8.csproj",
+        "projectUniqueName": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\respNewsV8.csproj",
         "projectName": "respNewsV8",
-        "projectPath": "C:\\Users\\XayalSadiqovBaxtiyar\\Desktop\\16\\respNews-0c33c9fb4b06d533c633699b175394f44b1df04b\\respNewsV8\\respNewsV8.csproj",
-        "packagesPath": "C:\\Users\\XayalSadiqovBaxtiyar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XayalSadiqovBaxtiyar\\Desktop\\16\\respNews-0c33c9fb4b06d533c633699b175394f44b1df04b\\respNewsV8\\obj\\",
+        "projectPath": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\respNewsV8.csproj",
+        "packagesPath": "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\XayalSadiqovBaxtiyar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Terlan Aliyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -98,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

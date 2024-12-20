@@ -17,14 +17,14 @@ namespace respNewsV8.Controllers
         {
             _userService = userService;
             _jwtService = jwtService;
-            _sql = sql; 
+            _sql = sql;
         }
 
 
         [HttpGet("users")]
         public IActionResult Get()
         {
-            var users=_sql.Users.ToList();
+            var users = _sql.Users.ToList();
             return Ok(users);
         }
 

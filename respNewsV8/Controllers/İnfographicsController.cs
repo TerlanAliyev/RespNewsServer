@@ -25,7 +25,7 @@ namespace respNewsV8.Controllers
             int page = pageNumber;
 
             var infs = _sql.İnfographics
-                .OrderByDescending(x=>x.InfPostDate)
+                .OrderByDescending(x => x.InfPostDate)
                 .Skip(page * 10).Take(10).ToList();
             return Ok(infs);
         }
@@ -104,30 +104,44 @@ namespace respNewsV8.Controllers
         }
 
 
-
         [HttpPut("edit/{id}")]
-        public IActionResult UpdateNews(int id, [FromBody] InfUpdateDto InfUpdateDto)
+        public IActionResult UpdateNews(int id, [FromForm] InfUpdateDto InfUpdateDto)
         {
-            // Haberi bul
-            var existingNews = _sql.İnfographics
-                .SingleOrDefault(x => x.InfId == id);
+            var existingNews = _sql.İnfographics.SingleOrDefault(x => x.InfId == id);
 
             if (existingNews == null)
             {
                 return NotFound(new { Message = "Güncellenecek haber bulunamadı." });
             }
 
-            // Haber detaylarını güncelle
+            // Metin alanlarını güncelle
             existingNews.InfName = InfUpdateDto.InfName;
             existingNews.InfPostDate = InfUpdateDto.InfPostDate;
-            existingNews.InfPostDate=InfUpdateDto.InfPostDate;
 
-            
-            // Veritabanına kaydet
+            // Eğer InfPhoto dolu ise işle
+            if (InfUpdateDto.InfPhoto != null)
+            {
+                // Resmi kaydet
+                var uploadsFolder = Path.Combine("wwwroot", "uploads", "infographics");
+                Directory.CreateDirectory(uploadsFolder); // Klasör yoksa oluştur
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + InfUpdateDto.InfPhoto.FileName;
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    InfUpdateDto.InfPhoto.CopyTo(stream);
+                }
+
+                // Veritabanına resim yolunu kaydet
+                existingNews.InfPhoto = $"/uploads/infographics/{uniqueFileName}";
+            }
+
             _sql.SaveChanges();
 
             return Ok(new { Message = "Haber başarıyla güncellendi." });
         }
+
+
 
 
 
