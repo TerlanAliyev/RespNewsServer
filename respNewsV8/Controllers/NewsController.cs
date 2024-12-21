@@ -906,18 +906,117 @@ namespace respNewsV8.Controllers
             }
         }
 
-
-
-
-
-
-
-
         // DTO for visibility update
         public class UpdateVisibilityDto
         { 
             public bool IsVisible { get; set; }
         }
+
+
+
+
+
+        [HttpPost("ClearPhotosCache")]
+        public IActionResult ClearPhotosCache()
+        {
+            try
+            {
+                // Haberlerin status'u false olanları alın
+                var deletedNewsIds = _sql.News
+                    .Where(n => n.NewsStatus == false)
+                    .Select(n => n.NewsId)
+                    .ToList();
+
+                if (!deletedNewsIds.Any())
+                {
+                    return Ok(new { message = "Silinecek fotoğraf bulunamadı." });
+                }
+
+                // İlgili fotoğrafları al
+                var photosToDelete = _sql.NewsPhotos
+                    .Where(p => deletedNewsIds.Contains(p.PhotoNewsId ?? 0))
+                    .ToList();
+
+                if (!photosToDelete.Any())
+                {
+                    return Ok(new { message = "Silinecek fotoğraf dosyası bulunamadı." });
+                }
+
+                // wwwroot/NewsPhotos klasör yolu
+                var newsPhotosFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "NewsPhotos");
+
+                foreach (var photo in photosToDelete)
+                {
+                    if (!string.IsNullOrEmpty(photo.PhotoUrl))
+                    {
+                        // Fiziksel dosya yolunu oluştur
+                        var filePath = Path.Combine(newsPhotosFolder, photo.PhotoUrl);
+
+                        // Dosya mevcutsa sil
+                        try
+                        {
+                            if (System.IO.File.Exists(filePath))
+                            {
+                                System.IO.File.Delete(filePath);
+                                Console.WriteLine($"Dosya silindi: {filePath}");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Dosya bulunamadı: {filePath}");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Dosya silinirken hata oluştu: {filePath}. Hata: {ex.Message}");
+                        }
+                    }
+                }
+
+                // Veritabanından fotoğraf kayıtlarını sil
+                try
+                {
+                    _sql.NewsPhotos.RemoveRange(photosToDelete);
+                    _sql.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Veritabanından fotoğraf kayıtları silinirken hata oluştu: {ex.Message}");
+                    return StatusCode(500, new { message = "Fotoğraf kayıtları veritabanından silinemedi." });
+                }
+
+                return Ok(new { message = "Fotoğraf kayıtları ve dosyalar başarıyla temizlendi." });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Bir hata oluştu: {ex.Message}");
+                return StatusCode(500, new { message = "Fotoğraf temizleme işlemi sırasında bir hata oluştu." });
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

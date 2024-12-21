@@ -85,7 +85,6 @@ builder.Services.AddControllers()
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IpHelper>();  // IP yardýmcý sýnýfýný ekliyoruz
-builder.Services.AddHttpClient<GeoLocationService>();
 
 // Uygulama oluþturuluyor
 var app = builder.Build();

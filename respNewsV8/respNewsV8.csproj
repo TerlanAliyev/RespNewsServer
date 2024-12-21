@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\CategoryCovers\" />
     <Folder Include="wwwroot\InfPhotos\" />
+    <Folder Include="wwwroot\LinkPhotos\" />
     <Folder Include="wwwroot\NewsVideos\" />
   </ItemGroup>
 

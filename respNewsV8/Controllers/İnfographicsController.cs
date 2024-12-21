@@ -122,7 +122,7 @@ namespace respNewsV8.Controllers
             if (InfUpdateDto.InfPhoto != null)
             {
                 // Resmi kaydet
-                var uploadsFolder = Path.Combine("wwwroot", "uploads", "infographics");
+                var uploadsFolder = Path.Combine("wwwroot","uploads", "infographics");
                 Directory.CreateDirectory(uploadsFolder); // Klasör yoksa oluştur
                 var uniqueFileName = Guid.NewGuid().ToString() + "_" + InfUpdateDto.InfPhoto.FileName;
                 var filePath = Path.Combine(uploadsFolder, uniqueFileName);

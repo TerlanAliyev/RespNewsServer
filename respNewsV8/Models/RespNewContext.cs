@@ -15,6 +15,8 @@ public partial class RespNewContext : DbContext
     {
     }
 
+    public virtual DbSet<AdditionalLink> AdditionalLinks { get; set; }
+
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Language> Languages { get; set; }
@@ -49,6 +51,14 @@ public partial class RespNewContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<AdditionalLink>(entity =>
+        {
+            entity.HasKey(e => e.LinkId).HasName("PK__Addition__2D122135DA4F3714");
+
+            entity.Property(e => e.LinkName).HasMaxLength(2000);
+            entity.Property(e => e.LinkVisibility).HasDefaultValue(true);
+        });
+
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A0B77A93A89");

@@ -396,6 +396,141 @@
     ]
   },
   {
+    "ContainingType": "respNewsV8.Controllers.LinksController",
+    "Method": "Get",
+    "RelativePath": "api/Links",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LinksController",
+    "Method": "UpdateVisibility",
+    "RelativePath": "api/Links/{id}/visibility",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "respNewsV8.Controllers.UpdateVisibilityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LinksController",
+    "Method": "UpdateNews",
+    "RelativePath": "api/Links/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LinkId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkCoverUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkVisibility",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LinksController",
+    "Method": "GetById",
+    "RelativePath": "api/Links/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LinksController",
+    "Method": "DeleteLink",
+    "RelativePath": "api/Links/id/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LinksController",
+    "Method": "Post",
+    "RelativePath": "api/Links/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LinkName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkCoverFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkVisibility",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "respNewsV8.Controllers.MessagesController",
     "Method": "Get",
     "RelativePath": "api/Messages",
@@ -580,6 +715,16 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.NewsController",
+    "Method": "ClearPhotosCache",
+    "RelativePath": "api/News/ClearPhotosCache",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "respNewsV8.Controllers.NewsController",
@@ -1378,22 +1523,6 @@
   },
   {
     "ContainingType": "respNewsV8.Controllers.StatisticController",
-    "Method": "AddStatistic",
-    "RelativePath": "api/Statistic/AddStatistic",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "statistic",
-        "Type": "respNewsV8.Models.Statisticss",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "respNewsV8.Controllers.StatisticController",
     "Method": "GetCategoryNewsCount",
     "RelativePath": "api/Statistic/CategoryNewsCount",
     "HttpMethod": "GET",
@@ -1406,32 +1535,6 @@
     "ContainingType": "respNewsV8.Controllers.StatisticController",
     "Method": "GetDeviceStats",
     "RelativePath": "api/Statistic/DeviceStats",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "respNewsV8.Controllers.StatisticController",
-    "Method": "GetStatisticByIP",
-    "RelativePath": "api/Statistic/GetStatisticByIP/{ip}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "ip",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "respNewsV8.Controllers.StatisticController",
-    "Method": "GetStatistics",
-    "RelativePath": "api/Statistic/GetStatistics",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1479,16 +1582,6 @@
     "Method": "GetTopViewedNews",
     "RelativePath": "api/Statistic/TopViewedNews",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "respNewsV8.Controllers.StatisticController",
-    "Method": "TrackVisit",
-    "RelativePath": "api/Statistic/TrackVisit",
-    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

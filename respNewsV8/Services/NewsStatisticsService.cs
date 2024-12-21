@@ -17,7 +17,7 @@ namespace respNewsV8.Services
         {
             var statistics = await (from n in _sql.News
                                     join o in _sql.Owners on n.NewsOwnerId equals o.OwnerId
-                                    where n.NewsDate.HasValue
+                                    where n.NewsDate.HasValue && n.NewsStatus == true && n.NewsVisibility == true
                                     group n by new { o.OwnerName, Year = n.NewsDate.Value.Year, Month = n.NewsDate.Value.Month } into g
                                     select new
                                     {
@@ -56,7 +56,6 @@ namespace respNewsV8.Services
 
             return result;
         }
-
 
 
 
