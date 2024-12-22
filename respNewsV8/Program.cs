@@ -71,6 +71,14 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddSingleton<ITempDataDictionaryFactory, TempDataDictionaryFactory>();
 builder.Services.AddControllersWithViews(); // Bu, TempData'yý ve diðer servisleri kaydeder
+builder.Services.AddDistributedMemoryCache(); // Oturum verilerini saklamak için
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Oturumun sona erme süresi
+    options.Cookie.HttpOnly = true; // Güvenlik için çerez sadece HTTP üzerinden eriþilebilir
+    options.Cookie.IsEssential = true; // GDPR uyumluluðu için gerekli
+});
+
 
 // Yetkilendirme
 builder.Services.AddAuthorization();
@@ -89,6 +97,20 @@ builder.Services.AddScoped<IpHelper>();  // IP yardýmcý sýnýfýný ekliyoruz
 // Uygulama oluþturuluyor
 var app = builder.Build();
 app.UseCors("AllowAll");
+
+
+
+
+app.UseHttpsRedirection();
+app.UseSession(); // Oturum middleware'ini ekleyin
+app.UseAuthentication();
+app.UseAuthorization();
+
+
+
+
+
+
 
 app.UseStaticFiles();
 // Hata ayýklama ortamý

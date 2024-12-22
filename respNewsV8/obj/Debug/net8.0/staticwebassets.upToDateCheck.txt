@@ -26,6 +26,7 @@ wwwroot\InfPhotos\c011aade-779b-44fa-9e0e-15a52c772c45.png
 wwwroot\InfPhotos\d0adb40f-76f1-4ef0-bb5f-44e8cd106a34_Ekran görüntüsü 2024-12-19 135317.png
 wwwroot\InfPhotos\d9b13a01-ce26-4db1-a9b7-fe11f6b9689f.jpg
 wwwroot\InfPhotos\f59d31fb-d0ec-4277-b164-d1934315cf90.png
+wwwroot\LinkPhotos\037ce9e4-6840-417e-85ae-3a11a6d4d057_WhatsApp Görsel 2024-12-22 saat 13.39.28_1287b6c9.jpg
 wwwroot\LinkPhotos\0bffc27d-4686-499c-9217-50cfba23f2f0_Ekran görüntüsü 2024-11-24 021307.png
 wwwroot\LinkPhotos\28990499-bae6-4a39-a026-604dbfd8cece_Ekran görüntüsü 2024-12-19 135152.png
 wwwroot\LinkPhotos\5fa995ee-5750-4b64-915d-23c7ff3d13a6_9ffbfe6975-Misli-premyer-liqasi-xvii-turda-daha-iki-oyun-kecirilecek.jpeg

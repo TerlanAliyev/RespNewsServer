@@ -15,5 +15,7 @@ public partial class User
 
     public string? UserNickName { get; set; }
 
+    public string? UserEmail { get; set; }
+
     public virtual ICollection<News> News { get; set; } = new List<News>();
 }

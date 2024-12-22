@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Runtime.InteropServices.Marshalling;
+using Microsoft.AspNetCore.Mvc;
 using respNewsV8.Models;
 using respNewsV8.Services;
 
@@ -28,6 +29,33 @@ namespace respNewsV8.Controllers
             return Ok(users);
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                // ID'ye göre kullanıcıyı bul
+                var user = _sql.Users.SingleOrDefault(x => x.UserId == id);
+
+                // Kullanıcı bulunamadıysa
+                if (user == null)
+                {
+                    return NotFound(new { message = "Kullanıcı bulunamadı." });
+                }
+
+                // Kullanıcıyı sil
+                _sql.Users.Remove(user);
+                _sql.SaveChanges();
+
+                return Ok(new { message = "Kullanıcı başarıyla silindi." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Bir hata oluştu.", error = ex.Message });
+            }
+        }
+
+
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginDto login)
@@ -41,6 +69,7 @@ namespace respNewsV8.Controllers
 
                 // Kullanıcı doğrulama
                 var user = _sql.Users.FirstOrDefault(u => u.UserNickName == login.UserNickName);
+                HttpContext.Session.SetString("UserId", user.UserId.ToString());
                 if (user == null || !_userService.IsValidUser(new User { UserNickName = login.UserNickName, UserPassword = login.UserPassword }))
                 {
                     return Unauthorized(new { Message = "Invalid username or password" });
@@ -71,8 +100,31 @@ namespace respNewsV8.Controllers
             }
         }
 
+        [HttpGet("getUserId")]
+        public IActionResult GetUserId()
+        {
+            var userId = HttpContext.Session.GetString("UserId");
+
+            return Ok(new { userId});
+        }
 
 
+
+        [HttpPost]
+        public IActionResult Post([FromForm] User user)
+        {
+            user.UserRole = "FullAdmin";
+            try
+            {
+                _sql.Users.Add(user);
+                _sql.SaveChanges();
+                return Ok(new { message = "Kullanıcı başarıyla eklendi." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Kullanıcı eklenirken bir hata oluştu.", error = ex.Message });
+            }
+        }
 
 
     }

@@ -31,22 +31,26 @@ namespace respNewsV8.Controllers
                 .ToListAsync();
             return Ok(subscribers);
         }
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Subscriber subscriber)
+
+        [HttpPost("post")]
+        public IActionResult Post([FromForm] Subscriber subscriber)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                subscriber.SubDate = DateTime.Now;
+                _sql.Subscribers.Add(subscriber);
+                _sql.SaveChanges();
+
+                return Ok(new { message = "Kullanıcı başarıyla eklendi." });
             }
-
-            subscriber.SubDate = DateTime.Now;
-            await _sql.Subscribers.AddAsync(subscriber);
-            await _sql.SaveChangesAsync();
-
-            return Ok();
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Bir hata oluştu.", error = ex.Message });
+            }
         }
 
-        [HttpDelete]
+
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var subscriber =  _sql.Subscribers.SingleOrDefault(x => x.SubId == id);

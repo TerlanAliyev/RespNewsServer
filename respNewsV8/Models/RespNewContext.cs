@@ -222,6 +222,7 @@ public partial class RespNewContext : DbContext
         {
             entity.HasKey(e => e.UserId).HasName("PK__Users__1788CC4CE053EDA3");
 
+            entity.Property(e => e.UserEmail).HasMaxLength(200);
             entity.Property(e => e.UserName).HasMaxLength(30);
             entity.Property(e => e.UserNickName).HasMaxLength(200);
             entity.Property(e => e.UserPassword).HasMaxLength(30);

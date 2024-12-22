@@ -78,13 +78,11 @@ namespace respNewsV8.Controllers
             return Ok(topNews);
         }
 
-        //Gunluk ve ayliq ziyaret
         [HttpGet("VisitStats")]
         public async Task<IActionResult> GetVisitStats()
         {
             try
             {
-                // Günlük ziyaret sayısı
                 var dailyVisits = await _context.Statisticsses
                     .GroupBy(s => s.VisitDate.Date)
                     .Select(g => new
@@ -94,7 +92,6 @@ namespace respNewsV8.Controllers
                     })
                     .ToListAsync();
 
-                // Aylık ziyaret sayısı
                 var monthlyVisits = await _context.Statisticsses
                     .GroupBy(s => new { s.VisitDate.Year, s.VisitDate.Month })
                     .Select(g => new
@@ -117,13 +114,11 @@ namespace respNewsV8.Controllers
             }
         }
 
-        //Cihaz tipleri
         [HttpGet("DeviceStats")]
         public async Task<IActionResult> GetDeviceStats()
         {
             try
             {
-                // Cihaz tipine göre gruplama
                 var deviceStats = await _context.Statisticsses
                     .GroupBy(s => new
                     {
