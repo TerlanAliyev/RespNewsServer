@@ -72,6 +72,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/CategoryCovers/65fa03fd-a0a3-4575-8bce-b622e66c0979.1d8khaup1r.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CategoryCovers\65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1d8khaup1r"},{"Name":"integrity","Value":"sha256-q1\u002BulGRhMRXJ1SRBIBw6EchTE40fZ47Gy2BbWwAR/SQ="},{"Name":"label","Value":"_content/respNewsV8/CategoryCovers/65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"226751"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q1\u002BulGRhMRXJ1SRBIBw6EchTE40fZ47Gy2BbWwAR/SQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:50:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/CategoryCovers/65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CategoryCovers\65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q1\u002BulGRhMRXJ1SRBIBw6EchTE40fZ47Gy2BbWwAR/SQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"226751"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q1\u002BulGRhMRXJ1SRBIBw6EchTE40fZ47Gy2BbWwAR/SQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:50:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/CategoryCovers/68447756-84bd-4ef8-ac2d-acc8eac934aa.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CategoryCovers\68447756-84bd-4ef8-ac2d-acc8eac934aa.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -107,6 +119,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/CategoryCovers/a57205f6-590b-4670-a903-253da4c23b19.64tuy77o5l.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CategoryCovers\a57205f6-590b-4670-a903-253da4c23b19.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"64tuy77o5l"},{"Name":"integrity","Value":"sha256-5jzQeaZWzcEkPDQLR59/aqrlJIPyaVsFljri0IpkmWE="},{"Name":"label","Value":"_content/respNewsV8/CategoryCovers/a57205f6-590b-4670-a903-253da4c23b19.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"260582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225jzQeaZWzcEkPDQLR59/aqrlJIPyaVsFljri0IpkmWE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:50:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/CategoryCovers/a57205f6-590b-4670-a903-253da4c23b19.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CategoryCovers\a57205f6-590b-4670-a903-253da4c23b19.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5jzQeaZWzcEkPDQLR59/aqrlJIPyaVsFljri0IpkmWE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"260582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225jzQeaZWzcEkPDQLR59/aqrlJIPyaVsFljri0IpkmWE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:50:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/CategoryCovers/a89512bf-64c6-44af-b241-75a8d16d94a3.1xgdft662d.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CategoryCovers\a89512bf-64c6-44af-b241-75a8d16d94a3.png'))</AssetFile>
@@ -960,6 +984,138 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SjHOju7aa48zNiVPgCjqpdGN88WUxnC7/0v0H2elF7U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13713573"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022SjHOju7aa48zNiVPgCjqpdGN88WUxnC7/0v0H2elF7U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/0057b052-ba36-4b1c-866e-1dc33576c53b.9l60pgav1f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\0057b052-ba36-4b1c-866e-1dc33576c53b.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9l60pgav1f"},{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/0057b052-ba36-4b1c-866e-1dc33576c53b.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/0057b052-ba36-4b1c-866e-1dc33576c53b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\0057b052-ba36-4b1c-866e-1dc33576c53b.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/04642abb-dd08-433c-b943-15753835a11f.314qxvtt7d.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\04642abb-dd08-433c-b943-15753835a11f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"314qxvtt7d"},{"Name":"integrity","Value":"sha256-50M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/04642abb-dd08-433c-b943-15753835a11f.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53654"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002250M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:43:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/04642abb-dd08-433c-b943-15753835a11f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\04642abb-dd08-433c-b943-15753835a11f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-50M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53654"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002250M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:43:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/11e46df2-7a9e-4378-aed2-9f9a53d6d86a.xxazh22g3u.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxazh22g3u"},{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/15f97719-630e-49c8-961b-f2f14df17e2f.9l60pgav1f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\15f97719-630e-49c8-961b-f2f14df17e2f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9l60pgav1f"},{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/15f97719-630e-49c8-961b-f2f14df17e2f.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 08:41:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/15f97719-630e-49c8-961b-f2f14df17e2f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\15f97719-630e-49c8-961b-f2f14df17e2f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 08:41:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/1ad35e26-472f-4440-b279-da4f3ae772d9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\1ad35e26-472f-4440-b279-da4f3ae772d9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:25:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/1ad35e26-472f-4440-b279-da4f3ae772d9.r54j67bacv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\1ad35e26-472f-4440-b279-da4f3ae772d9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r54j67bacv"},{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/1ad35e26-472f-4440-b279-da4f3ae772d9.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:25:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/1dba5d68-7c99-4b07-be4d-1f79165460a2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\1dba5d68-7c99-4b07-be4d-1f79165460a2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"364"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/1dba5d68-7c99-4b07-be4d-1f79165460a2.uggr9x7k6q.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\1dba5d68-7c99-4b07-be4d-1f79165460a2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uggr9x7k6q"},{"Name":"integrity","Value":"sha256-Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/1dba5d68-7c99-4b07-be4d-1f79165460a2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"364"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:02:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.xxazh22g3u.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxazh22g3u"},{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:02:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/394e4154-b02d-4d26-b677-8cb830764cbf.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\394e4154-b02d-4d26-b677-8cb830764cbf.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"307837"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/394e4154-b02d-4d26-b677-8cb830764cbf.zwywts9i20.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\394e4154-b02d-4d26-b677-8cb830764cbf.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zwywts9i20"},{"Name":"integrity","Value":"sha256-PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/394e4154-b02d-4d26-b677-8cb830764cbf.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"307837"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/4766ffdc-295d-4a15-88f2-9c5f5091fb77.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\4766ffdc-295d-4a15-88f2-9c5f5091fb77.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/4766ffdc-295d-4a15-88f2-9c5f5091fb77.r54j67bacv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\4766ffdc-295d-4a15-88f2-9c5f5091fb77.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r54j67bacv"},{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/4766ffdc-295d-4a15-88f2-9c5f5091fb77.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/707ada84-2328-44d2-8ab7-67f2559731ae.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\707ada84-2328-44d2-8ab7-67f2559731ae.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"319100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/707ada84-2328-44d2-8ab7-67f2559731ae.tl323wtjs1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\707ada84-2328-44d2-8ab7-67f2559731ae.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tl323wtjs1"},{"Name":"integrity","Value":"sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/707ada84-2328-44d2-8ab7-67f2559731ae.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"319100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/89c81473-0cf0-4ab4-a74b-41e899cdf5fe.xxazh22g3u.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxazh22g3u"},{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/aaa73d92-b6c9-4e05-9c4f-2e4219e72544.jf8rxzcwhc.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\aaa73d92-b6c9-4e05-9c4f-2e4219e72544.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -984,6 +1140,114 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cn0PMHm78HmoYFoMAdfDzJvyBHOh5EBTxEgeiVs4RT4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"240317"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Cn0PMHm78HmoYFoMAdfDzJvyBHOh5EBTxEgeiVs4RT4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Dec 2024 06:54:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"364"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.uggr9x7k6q.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uggr9x7k6q"},{"Name":"integrity","Value":"sha256-Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"364"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Hsn9j55U0XJKb94/uAUjVVQK2FA7gLIMlLtXec\u002ByPZk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:02:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.xxazh22g3u.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxazh22g3u"},{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:02:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/d2cdffc5-d71d-402e-a7cf-111926694cf3.9l60pgav1f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\d2cdffc5-d71d-402e-a7cf-111926694cf3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9l60pgav1f"},{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/d2cdffc5-d71d-402e-a7cf-111926694cf3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/d2cdffc5-d71d-402e-a7cf-111926694cf3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\d2cdffc5-d71d-402e-a7cf-111926694cf3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:42:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/dfbfc54b-555c-4c94-8260-d4d453d93b27.xxazh22g3u.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxazh22g3u"},{"Name":"integrity","Value":"sha256-28TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136419"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002228TQ6x2xkCyHoqwxol0lmknYSGr3dYZfSiBVcmqBxOA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:42:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"307837"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/e715d04b-0c8c-4117-8244-7cc3f7b48f30.zwywts9i20.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zwywts9i20"},{"Name":"integrity","Value":"sha256-PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"307837"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PUr9ewUZ4v7EAAl1l7U3up27FYf8IqgnT4cC8oPbu5E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"319100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/f1989d25-5d46-4cfe-bf9d-d1368600ac69.tl323wtjs1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tl323wtjs1"},{"Name":"integrity","Value":"sha256-wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"319100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wXGGGjwS09dbKIIjmbyrUwG4t7YuHS421hVljn9GY48=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/f76f42fd-59b5-4285-a807-21da5bb4eb82.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\f76f42fd-59b5-4285-a807-21da5bb4eb82.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/f76f42fd-59b5-4285-a807-21da5bb4eb82.r54j67bacv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\f76f42fd-59b5-4285-a807-21da5bb4eb82.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r54j67bacv"},{"Name":"integrity","Value":"sha256-MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/f76f42fd-59b5-4285-a807-21da5bb4eb82.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"102277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MfLRrhIl9V3d3Ne1iYNOjT7n/ct1PDJd/wZ\u002B8bov//o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/sqqqql.314qxvtt7d.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\sqqqql.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"314qxvtt7d"},{"Name":"integrity","Value":"sha256-50M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/sqqqql.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53654"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002250M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:33:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/sqqqql.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\sqqqql.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-50M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53654"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002250M34xUdXHgi\u002BqVDkaFVEGlYeRAldtr4XgXpKs4EXLo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:33:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/WIN_20241216_11_28_46_Pro.abihku44v0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\WIN_20241216_11_28_46_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"abihku44v0"},{"Name":"integrity","Value":"sha256-Cn0PMHm78HmoYFoMAdfDzJvyBHOh5EBTxEgeiVs4RT4="},{"Name":"label","Value":"_content/respNewsV8/NewsPhotos/WIN_20241216_11_28_46_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"240317"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Cn0PMHm78HmoYFoMAdfDzJvyBHOh5EBTxEgeiVs4RT4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:44:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsPhotos/WIN_20241216_11_28_46_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsPhotos\WIN_20241216_11_28_46_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cn0PMHm78HmoYFoMAdfDzJvyBHOh5EBTxEgeiVs4RT4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"240317"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Cn0PMHm78HmoYFoMAdfDzJvyBHOh5EBTxEgeiVs4RT4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:44:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/1ffc50cb-7200-4247-8c7b-082ae168a4fd.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\1ffc50cb-7200-4247-8c7b-082ae168a4fd.mp4'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -996,6 +1260,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yy0xtwt4qe"},{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/1ffc50cb-7200-4247-8c7b-082ae168a4fd.mp4"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/24e83dae-a6e9-4b59-99a4-cde913786c76.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\24e83dae-a6e9-4b59-99a4-cde913786c76.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"607363"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:43:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/24e83dae-a6e9-4b59-99a4-cde913786c76.mptuvh1cs9.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\24e83dae-a6e9-4b59-99a4-cde913786c76.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mptuvh1cs9"},{"Name":"integrity","Value":"sha256-Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/24e83dae-a6e9-4b59-99a4-cde913786c76.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"607363"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:43:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/43f808cb-7b96-4507-b7e7-e20cfde09854.6h90yv2t81.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\43f808cb-7b96-4507-b7e7-e20cfde09854.mp4'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1007,6 +1283,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BjJ3lwabquS\u002BCbaIzx329Opp0\u002BT1boK2HP1Swx\u002BDw4c="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20835933"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022BjJ3lwabquS\u002BCbaIzx329Opp0\u002BT1boK2HP1Swx\u002BDw4c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/59b83213-62ae-49fc-ad5a-3f9cc006ea38.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\59b83213-62ae-49fc-ad5a-3f9cc006ea38.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/59b83213-62ae-49fc-ad5a-3f9cc006ea38.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\59b83213-62ae-49fc-ad5a-3f9cc006ea38.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/59b83213-62ae-49fc-ad5a-3f9cc006ea38.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/5c93b08d-b771-4c13-8354-cd02edddff86.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\5c93b08d-b771-4c13-8354-cd02edddff86.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/5c93b08d-b771-4c13-8354-cd02edddff86.yy0xtwt4qe.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\5c93b08d-b771-4c13-8354-cd02edddff86.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yy0xtwt4qe"},{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/5c93b08d-b771-4c13-8354-cd02edddff86.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/5dedc998-b231-413f-90b1-70118fcea7df.3ff3q6dnm9.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\5dedc998-b231-413f-90b1-70118fcea7df.png'))</AssetFile>
@@ -1032,6 +1332,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/696a1b6b-cae3-4909-bf31-8c4c2b000d7a.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\696a1b6b-cae3-4909-bf31-8c4c2b000d7a.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/696a1b6b-cae3-4909-bf31-8c4c2b000d7a.yy0xtwt4qe.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\696a1b6b-cae3-4909-bf31-8c4c2b000d7a.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yy0xtwt4qe"},{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/696a1b6b-cae3-4909-bf31-8c4c2b000d7a.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/72066d23-7ce2-42b7-a939-ceb6ec6bb921.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\72066d23-7ce2-42b7-a939-ceb6ec6bb921.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/72066d23-7ce2-42b7-a939-ceb6ec6bb921.yy0xtwt4qe.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\72066d23-7ce2-42b7-a939-ceb6ec6bb921.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yy0xtwt4qe"},{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/72066d23-7ce2-42b7-a939-ceb6ec6bb921.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:55:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/73ccc9cf-82bc-46e2-b535-4e0e93eb627c.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\73ccc9cf-82bc-46e2-b535-4e0e93eb627c.mp4'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1043,6 +1367,102 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yy0xtwt4qe"},{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/73ccc9cf-82bc-46e2-b535-4e0e93eb627c.mp4"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"607363"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:25:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mptuvh1cs9.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mptuvh1cs9"},{"Name":"integrity","Value":"sha256-Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"607363"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:25:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/76148a41-ae4d-4c71-bbda-48b51ad6ed8b.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\76148a41-ae4d-4c71-bbda-48b51ad6ed8b.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/76148a41-ae4d-4c71-bbda-48b51ad6ed8b.yy0xtwt4qe.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\76148a41-ae4d-4c71-bbda-48b51ad6ed8b.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yy0xtwt4qe"},{"Name":"integrity","Value":"sha256-1u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/76148a41-ae4d-4c71-bbda-48b51ad6ed8b.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2819984"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u00221u\u002BsNstenIGkKJ\u002BK0\u002BygPHer5\u002B0LjAoY\u002BQ\u002B22wJp9lY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:05:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/814121f1-80fe-4806-9154-a984bdeb3553.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\814121f1-80fe-4806-9154-a984bdeb3553.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/814121f1-80fe-4806-9154-a984bdeb3553.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\814121f1-80fe-4806-9154-a984bdeb3553.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/814121f1-80fe-4806-9154-a984bdeb3553.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"607363"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:42:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mptuvh1cs9.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mptuvh1cs9"},{"Name":"integrity","Value":"sha256-Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"607363"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Fpsgf4kbVRP1TIxy7miumVJ8xqkkFlwTbKlPLG2JnII=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 10:42:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/977701df-42b3-427a-a9ed-aca99a608fa1.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\977701df-42b3-427a-a9ed-aca99a608fa1.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/977701df-42b3-427a-a9ed-aca99a608fa1.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\977701df-42b3-427a-a9ed-aca99a608fa1.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/977701df-42b3-427a-a9ed-aca99a608fa1.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:53:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/9dd5edaa-40af-44f9-af26-8782e99fe93b.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\9dd5edaa-40af-44f9-af26-8782e99fe93b.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/9dd5edaa-40af-44f9-af26-8782e99fe93b.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\9dd5edaa-40af-44f9-af26-8782e99fe93b.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/9dd5edaa-40af-44f9-af26-8782e99fe93b.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 11:57:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/a34d6463-2f56-434b-92fb-e28b4a3e7927.6h90yv2t81.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\a34d6463-2f56-434b-92fb-e28b4a3e7927.mp4'))</AssetFile>
@@ -1067,6 +1487,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2660357"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zzLyWYEsV7BcpEPHG3OCm3w\u002Bz5a564aXz47kOO7nhZo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 10:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/c13d8b6b-9363-4576-b474-92385d09fcc6.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\c13d8b6b-9363-4576-b474-92385d09fcc6.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/c13d8b6b-9363-4576-b474-92385d09fcc6.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\c13d8b6b-9363-4576-b474-92385d09fcc6.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/c13d8b6b-9363-4576-b474-92385d09fcc6.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/d26707dd-8b0f-42ab-808e-549490ed65c9.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\d26707dd-8b0f-42ab-808e-549490ed65c9.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/d26707dd-8b0f-42ab-808e-549490ed65c9.n0ixr0b040.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\d26707dd-8b0f-42ab-808e-549490ed65c9.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n0ixr0b040"},{"Name":"integrity","Value":"sha256-d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY="},{"Name":"label","Value":"_content/respNewsV8/NewsVideos/d26707dd-8b0f-42ab-808e-549490ed65c9.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1025809"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022d4RF\u002Bajee6EBAeNPFLD74\u002ByZQwqMJzmuFCC12VyXAbY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:13:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/NewsVideos/Document - Google Chrome 2024-08-03 00-07-35.6h90yv2t81.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsVideos\Document - Google Chrome 2024-08-03 00-07-35.mp4'))</AssetFile>
@@ -1128,6 +1572,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ck0YJkg/MRQDwHOi7yRMfP5bu3ikqLqGnrUCsFgoKQw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42051"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ck0YJkg/MRQDwHOi7yRMfP5bu3ikqLqGnrUCsFgoKQw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Dec 2024 19:24:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/images/ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\images\ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foHsNDmDqxyB\u002Bu9r2qlAwRPf/zzR6nZ/HNO62lZGeMM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254691"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022foHsNDmDqxyB\u002Bu9r2qlAwRPf/zzR6nZ/HNO62lZGeMM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:51:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/images/ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.mrunris52g.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\images\ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mrunris52g"},{"Name":"integrity","Value":"sha256-foHsNDmDqxyB\u002Bu9r2qlAwRPf/zzR6nZ/HNO62lZGeMM="},{"Name":"label","Value":"_content/respNewsV8/uploads/images/ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254691"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022foHsNDmDqxyB\u002Bu9r2qlAwRPf/zzR6nZ/HNO62lZGeMM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:51:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/infographics/130febb5-4908-4eac-b13f-e25ecaaa5bb7_Ekran görüntüsü 2024-11-17 021742.9l60pgav1f.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\infographics\130febb5-4908-4eac-b13f-e25ecaaa5bb7_Ekran görüntüsü 2024-11-17 021742.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1164,6 +1620,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72919"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o4VXoO3gdRi8W2yn6886gQjfolR8MyEAJCbu9TyQ/DM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Dec 2024 11:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/infographics/8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jf8rxzcwhc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\infographics\8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jf8rxzcwhc"},{"Name":"integrity","Value":"sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="},{"Name":"label","Value":"_content/respNewsV8/uploads/infographics/8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"315070"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:51:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/infographics/8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\infographics\8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"315070"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022b1Djv9NP5DQu0juSWO3ahjU49KppvC7cZV532mvywwc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:51:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/infographics/925b1fc1-f86d-42b6-ad0a-75d93f15220c_sqqqql.314qxvtt7d.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\infographics\925b1fc1-f86d-42b6-ad0a-75d93f15220c_sqqqql.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1187,6 +1655,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Dec 2024 19:24:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/pdfs/d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.by81yte82l.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\pdfs\d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"by81yte82l"},{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="},{"Name":"label","Value":"_content/respNewsV8/uploads/pdfs/d834a73b-2d5a-4533-93f6-64bcad18ec89_Az\u0259rbaycan Respublikas\u0131nda s\u00FCr\u00FC\u015Fm\u0259 ehtimall\u0131 zonalar\u0131n t\u0259snifat\u0131.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:51:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/pdfs/d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\pdfs\d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"410990"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bUYY8eZc5uWdCpn4nlXT4ggsb1M/y1srW4Vrgh4hBmo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Dec 2024 12:51:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/respNewsV8/uploads/pdfs/df3b5e59-9049-48b3-8e5e-95068890540d_Təhlükəli yoluxucu xəstəliklər.b5b6e1b6jx.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\pdfs\df3b5e59-9049-48b3-8e5e-95068890540d_Təhlükəli yoluxucu xəstəliklər.pdf'))</AssetFile>

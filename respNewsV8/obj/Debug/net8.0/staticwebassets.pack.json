@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\CategoryCovers\\5e80dfc2-397a-4656-90f5-b0aa29ba7d47.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\CategoryCovers\\65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg",
+      "PackagePath": "staticwebassets\\CategoryCovers\\65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\CategoryCovers\\68447756-84bd-4ef8-ac2d-acc8eac934aa.png",
       "PackagePath": "staticwebassets\\CategoryCovers\\68447756-84bd-4ef8-ac2d-acc8eac934aa.png"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\CategoryCovers\\WhatsApp Görsel 2024-11-13 saat 19.44.18_e7c7959e.jpg",
       "PackagePath": "staticwebassets\\CategoryCovers\\WhatsApp Görsel 2024-11-13 saat 19.44.18_e7c7959e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\CategoryCovers\\a57205f6-590b-4670-a903-253da4c23b19.jpg",
+      "PackagePath": "staticwebassets\\CategoryCovers\\a57205f6-590b-4670-a903-253da4c23b19.jpg"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\CategoryCovers\\a89512bf-64c6-44af-b241-75a8d16d94a3.png",
@@ -129,6 +137,54 @@
       "PackagePath": "staticwebassets\\LinkPhotos\\d7372f64-5e87-4c03-b14a-950223b74f5c_Ekran görüntüsü 2024-12-19 135123.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\0057b052-ba36-4b1c-866e-1dc33576c53b.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\0057b052-ba36-4b1c-866e-1dc33576c53b.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\04642abb-dd08-433c-b943-15753835a11f.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\04642abb-dd08-433c-b943-15753835a11f.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\15f97719-630e-49c8-961b-f2f14df17e2f.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\15f97719-630e-49c8-961b-f2f14df17e2f.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\1ad35e26-472f-4440-b279-da4f3ae772d9.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\1ad35e26-472f-4440-b279-da4f3ae772d9.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\1dba5d68-7c99-4b07-be4d-1f79165460a2.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\1dba5d68-7c99-4b07-be4d-1f79165460a2.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\394e4154-b02d-4d26-b677-8cb830764cbf.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\394e4154-b02d-4d26-b677-8cb830764cbf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\4766ffdc-295d-4a15-88f2-9c5f5091fb77.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\4766ffdc-295d-4a15-88f2-9c5f5091fb77.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\707ada84-2328-44d2-8ab7-67f2559731ae.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\707ada84-2328-44d2-8ab7-67f2559731ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\WIN_20241216_11_28_46_Pro.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\WIN_20241216_11_28_46_Pro.jpg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\aaa73d92-b6c9-4e05-9c4f-2e4219e72544.jpg",
       "PackagePath": "staticwebassets\\NewsPhotos\\aaa73d92-b6c9-4e05-9c4f-2e4219e72544.jpg"
     },
@@ -137,12 +193,56 @@
       "PackagePath": "staticwebassets\\NewsPhotos\\b5ca2e87-97ef-4ff1-8c2c-4dbc2e9e9541.jpg"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\d2cdffc5-d71d-402e-a7cf-111926694cf3.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\d2cdffc5-d71d-402e-a7cf-111926694cf3.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg",
+      "PackagePath": "staticwebassets\\NewsPhotos\\f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\f76f42fd-59b5-4285-a807-21da5bb4eb82.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\f76f42fd-59b5-4285-a807-21da5bb4eb82.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\sqqqql.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\sqqqql.png"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\1ffc50cb-7200-4247-8c7b-082ae168a4fd.mp4",
       "PackagePath": "staticwebassets\\NewsVideos\\1ffc50cb-7200-4247-8c7b-082ae168a4fd.mp4"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\24e83dae-a6e9-4b59-99a4-cde913786c76.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\24e83dae-a6e9-4b59-99a4-cde913786c76.mp4"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\43f808cb-7b96-4507-b7e7-e20cfde09854.mp4",
       "PackagePath": "staticwebassets\\NewsVideos\\43f808cb-7b96-4507-b7e7-e20cfde09854.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\59b83213-62ae-49fc-ad5a-3f9cc006ea38.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\59b83213-62ae-49fc-ad5a-3f9cc006ea38.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\5c93b08d-b771-4c13-8354-cd02edddff86.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\5c93b08d-b771-4c13-8354-cd02edddff86.mp4"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\5dedc998-b231-413f-90b1-70118fcea7df.png",
@@ -153,8 +253,48 @@
       "PackagePath": "staticwebassets\\NewsVideos\\6739f4e5-64ff-4d11-833d-b8235cf37ae0.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\696a1b6b-cae3-4909-bf31-8c4c2b000d7a.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\696a1b6b-cae3-4909-bf31-8c4c2b000d7a.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\72066d23-7ce2-42b7-a939-ceb6ec6bb921.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\72066d23-7ce2-42b7-a939-ceb6ec6bb921.mp4"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\73ccc9cf-82bc-46e2-b535-4e0e93eb627c.mp4",
       "PackagePath": "staticwebassets\\NewsVideos\\73ccc9cf-82bc-46e2-b535-4e0e93eb627c.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\7430e049-fb3d-47f8-b7d6-f6d76b869bc8.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\76148a41-ae4d-4c71-bbda-48b51ad6ed8b.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\76148a41-ae4d-4c71-bbda-48b51ad6ed8b.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\814121f1-80fe-4806-9154-a984bdeb3553.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\814121f1-80fe-4806-9154-a984bdeb3553.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\8b3785ff-ec2c-4106-a5d1-8b0e3dc91812.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\8d9ae8d2-0e06-43d2-81ff-2818c5aa760b.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\977701df-42b3-427a-a9ed-aca99a608fa1.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\977701df-42b3-427a-a9ed-aca99a608fa1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\9b32cd6c-9180-48aa-b479-8f1a73cf7fc9.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\9dd5edaa-40af-44f9-af26-8782e99fe93b.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\9dd5edaa-40af-44f9-af26-8782e99fe93b.mp4"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\Document - Google Chrome 2024-08-03 00-07-35.mp4",
@@ -167,6 +307,14 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\bab31ff8-851d-4f73-ac9a-77053ee2b59e.png",
       "PackagePath": "staticwebassets\\NewsVideos\\bab31ff8-851d-4f73-ac9a-77053ee2b59e.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\c13d8b6b-9363-4576-b474-92385d09fcc6.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\c13d8b6b-9363-4576-b474-92385d09fcc6.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\d26707dd-8b0f-42ab-808e-549490ed65c9.mp4",
+      "PackagePath": "staticwebassets\\NewsVideos\\d26707dd-8b0f-42ab-808e-549490ed65c9.mp4"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsVideos\\e336b967-10c7-4385-9713-17087ca6eccb.png",
@@ -377,6 +525,10 @@
       "PackagePath": "staticwebassets\\uploads\\images\\52c3a94c-c238-4ce0-ab07-0f418abbd34e_Ekran görüntüsü 2024-12-17 114003.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\images\\ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\infographics\\130febb5-4908-4eac-b13f-e25ecaaa5bb7_Ekran görüntüsü 2024-11-17 021742.png",
       "PackagePath": "staticwebassets\\uploads\\infographics\\130febb5-4908-4eac-b13f-e25ecaaa5bb7_Ekran görüntüsü 2024-11-17 021742.png"
     },
@@ -389,12 +541,20 @@
       "PackagePath": "staticwebassets\\uploads\\infographics\\4f78286c-df17-45d0-93c5-27b1e8a3a083_Ekran görüntüsü 2024-11-17 021742.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\infographics\\8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg",
+      "PackagePath": "staticwebassets\\uploads\\infographics\\8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\infographics\\925b1fc1-f86d-42b6-ad0a-75d93f15220c_sqqqql.png",
       "PackagePath": "staticwebassets\\uploads\\infographics\\925b1fc1-f86d-42b6-ad0a-75d93f15220c_sqqqql.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\pdfs\\7626395e-670c-4c4c-872b-adb1c994fad5_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
       "PackagePath": "staticwebassets\\uploads\\pdfs\\7626395e-670c-4c4c-872b-adb1c994fad5_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\pdfs\\d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf",
+      "PackagePath": "staticwebassets\\uploads\\pdfs\\d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\uploads\\pdfs\\df3b5e59-9049-48b3-8e5e-95068890540d_Təhlükəli yoluxucu xəstəliklər.pdf",

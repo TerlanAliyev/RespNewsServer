@@ -31,7 +31,7 @@ namespace respNewsV8.Services
                 var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
                 // Kullanıcıyı veritabanından al
-                var user = _sql.Users.FirstOrDefault(u => u.UserName == username);
+                var user = _sql.Users.FirstOrDefault(u => u.UserNickName == username);
                 if (user == null) throw new UnauthorizedAccessException("User not found");
 
                 var claims = new[]

@@ -67,7 +67,7 @@ namespace respNewsV8.Controllers
                     Console.WriteLine($"Dosya boyutu: {linkUpdateDto.LinkCoverUrl.Length}");
 
                     // Fotoğrafı kaydetmek için dizin oluştur
-                    var uploadsFolder = Path.Combine("wwwroot","uploads" ,"linkphotos");
+                    var uploadsFolder = Path.Combine("wwwroot" ,"LinkPhotos");
                     Directory.CreateDirectory(uploadsFolder);
 
                     // Dosya adı oluştur
@@ -81,7 +81,7 @@ namespace respNewsV8.Controllers
                     }
 
                     // Veritabanındaki fotoğraf yolunu güncelle
-                    existingLink.LinkCoverUrl = $"/uploads/linkphotos/{uniqueFileName}";
+                    existingLink.LinkCoverUrl = $"/Linkphotos/{uniqueFileName}";
                 }
 
                 // Veritabanını güncelle

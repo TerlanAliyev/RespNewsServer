@@ -819,32 +819,42 @@
       },
       {
         "Name": "NewsCategoryId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewsCategory",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
         "Name": "NewsLangId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "NewsRating",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "NewsLang",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "NewsStatus",
-        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "NewsTags",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
         "Name": "NewsVisibility",
-        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewsRating",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {
         "Name": "NewsUpdateDate",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.DateTime",
         "IsRequired": false
       },
       {
@@ -853,12 +863,17 @@
         "IsRequired": false
       },
       {
-        "Name": "NewsOwnerId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "NewsPhotos",
+        "Type": "System.Collections.Generic.List\u00601[[respNewsV8.Controllers.NewsPhotoDto, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
-        "Name": "NewsViewCount",
+        "Name": "NewsVideos",
+        "Type": "System.Collections.Generic.List\u00601[[respNewsV8.Controllers.NewsVideoDto, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewsOwnerId",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
@@ -868,138 +883,13 @@
         "IsRequired": false
       },
       {
-        "Name": "NewsTags",
-        "Type": "System.String",
+        "Name": "newsPhotos",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
       },
       {
-        "Name": "NewsAdmin.UserId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsAdmin.UserName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsAdmin.UserPassword",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsAdmin.UserRole",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsAdmin.UserNickName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsAdmin.News",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.News, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryCoverUrl",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryLangId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryStatus",
-        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryLang.LanguageId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryLang.LanguageName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryLang.Categories",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.Category, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.CategoryLang.News",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.News, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsCategory.News",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.News, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsLang.LanguageId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsLang.LanguageName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsLang.Categories",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.Category, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsLang.News",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.News, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsOwner.OwnerId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsOwner.OwnerName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsOwner.OwnerTotal",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsOwner.News",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.News, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsPhotos",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.NewsPhoto, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewsVideos",
-        "Type": "System.Collections.Generic.ICollection\u00601[[respNewsV8.Models.NewsVideo, respNewsV8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "newsVideos",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
       }
     ],

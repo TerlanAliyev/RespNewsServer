@@ -34,27 +34,43 @@ namespace respNewsV8.Controllers
         {
             try
             {
-                if (login == null || string.IsNullOrEmpty(login.UserName) || string.IsNullOrEmpty(login.UserPassword))
+                if (login == null || string.IsNullOrEmpty(login.UserNickName) || string.IsNullOrEmpty(login.UserPassword))
                 {
                     return BadRequest(new { Message = "Username and password are required" });
                 }
 
                 // Kullanıcı doğrulama
-                var user = _sql.Users.FirstOrDefault(u => u.UserName == login.UserName);
-                if (user == null || !_userService.IsValidUser(new User { UserName = login.UserName, UserPassword = login.UserPassword }))
+                var user = _sql.Users.FirstOrDefault(u => u.UserNickName == login.UserNickName);
+                if (user == null || !_userService.IsValidUser(new User { UserNickName = login.UserNickName, UserPassword = login.UserPassword }))
                 {
                     return Unauthorized(new { Message = "Invalid username or password" });
                 }
 
                 // JWT Token üretimi
-                var tokenString = _jwtService.GenerateJwtToken(user.UserName);
-                return Ok(new { Token = tokenString });
+                var tokenString = _jwtService.GenerateJwtToken(user.UserNickName);
+
+                // Cookie ayarları
+                var cookieOptions = new CookieOptions
+                {
+                    HttpOnly = true, // JavaScript erişimini engelle
+                    Secure = true, // HTTPS üzerinden gönder
+                    SameSite = SameSiteMode.Strict, // CSRF saldırılarını önle
+                    Expires = DateTime.Now.AddMinutes(30) // Geçerlilik süresi
+                };
+
+                // Cookie'ye ek bilgiler ekleyin
+                Response.Cookies.Append("jwtToken", tokenString, cookieOptions);
+                Response.Cookies.Append("userRole", user.UserRole, cookieOptions);
+                Response.Cookies.Append("userName", user.UserName, cookieOptions);
+
+                return Ok(new { Message = "Login successful" });
             }
             catch (Exception ex)
             {
                 return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
             }
         }
+
 
 
 

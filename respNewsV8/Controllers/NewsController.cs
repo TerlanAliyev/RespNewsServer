@@ -817,17 +817,12 @@ namespace respNewsV8.Controllers
 
         // EDIT
         // [Authorize(Roles = "Admin")]
-
         [HttpPut("id/{id}")]
-        public IActionResult UpdateNews(int id, [FromForm] News news)
+        public IActionResult UpdateNews(int id, [FromForm] UpdateNewsDto news, List<IFormFile> newsPhotos, List<IFormFile> newsVideos)
         {
             var existingNews = _sql.News
-                .Include(n => n.NewsCategory)
-                .Include(n => n.NewsLang)
                 .Include(n => n.NewsPhotos)
                 .Include(n => n.NewsVideos)
-                .Include(n => n.NewsOwner)
-                .Include(n => n.NewsAdmin)
                 .SingleOrDefault(x => x.NewsId == id);
 
             if (existingNews == null)
@@ -839,39 +834,85 @@ namespace respNewsV8.Controllers
             existingNews.NewsTitle = news.NewsTitle ?? existingNews.NewsTitle;
             existingNews.NewsContetText = news.NewsContetText ?? existingNews.NewsContetText;
             existingNews.NewsDate = news.NewsDate ?? existingNews.NewsDate;
-            existingNews.NewsCategoryId = news.NewsCategoryId ?? existingNews.NewsCategoryId;
-            existingNews.NewsLangId = news.NewsLangId ?? existingNews.NewsLangId;
-            existingNews.NewsVisibility = news.NewsVisibility ?? existingNews.NewsVisibility;
-            existingNews.NewsRating = news.NewsRating ?? existingNews.NewsRating;
+            existingNews.NewsCategoryId = news.NewsCategoryId != 0 ? news.NewsCategoryId : existingNews.NewsCategoryId;
+            existingNews.NewsLangId = news.NewsLangId != 0 ? news.NewsLangId : existingNews.NewsLangId;
+            existingNews.NewsVisibility = news.NewsVisibility;
+            existingNews.NewsRating = news.NewsRating != 0 ? news.NewsRating : existingNews.NewsRating;
             existingNews.NewsYoutubeLink = news.NewsYoutubeLink ?? existingNews.NewsYoutubeLink;
-            existingNews.NewsOwnerId = news.NewsOwnerId ?? existingNews.NewsOwnerId;
-            existingNews.NewsAdminId = news.NewsAdminId ?? existingNews.NewsAdminId;
             existingNews.NewsTags = news.NewsTags ?? existingNews.NewsTags;
 
-            // Haber fotoğraflarını güncelle
-            if (news.NewsPhotos != null && news.NewsPhotos.Count > 0)
+            // Fotoğrafları güncelle
+            if (newsPhotos != null && newsPhotos.Any())
             {
-                existingNews.NewsPhotos.Clear();
-                foreach (var photo in news.NewsPhotos)
+                // Mevcut fotoğrafları sil
+                foreach (var existingPhoto in existingNews.NewsPhotos)
                 {
-                    existingNews.NewsPhotos.Add(new NewsPhoto { PhotoUrl = photo.PhotoUrl });
+                    var existingPhotoPath = Path.Combine("wwwroot/NewsPhotos", Path.GetFileName(existingPhoto.PhotoUrl));
+                    if (System.IO.File.Exists(existingPhotoPath))
+                    {
+                        System.IO.File.Delete(existingPhotoPath);
+                    }
+                }
+
+                // Mevcut veritabanı kayıtlarını temizle
+                existingNews.NewsPhotos.Clear();
+
+                // Yeni fotoğrafları ekle
+                foreach (var photo in newsPhotos)
+                {
+                    var newFileName = Guid.NewGuid() + Path.GetExtension(photo.FileName);
+                    var filePath = Path.Combine("wwwroot/NewsPhotos", newFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        photo.CopyTo(stream);
+                    }
+
+                    if (!existingNews.NewsPhotos.Any(p => p.PhotoUrl == $"/NewsPhotos/{newFileName}"))
+                    {
+                        existingNews.NewsPhotos.Add(new NewsPhoto { PhotoUrl = $"/NewsPhotos/{newFileName}" });
+                    }
                 }
             }
 
-            // Haber videolarını güncelle
-            if (news.NewsVideos != null && news.NewsVideos.Count > 0)
+            // Videoları güncelle
+            if (newsVideos != null && newsVideos.Any())
             {
-                existingNews.NewsVideos.Clear();
-                foreach (var video in news.NewsVideos)
+                // Mevcut videoları sil
+                foreach (var existingVideo in existingNews.NewsVideos)
                 {
-                    existingNews.NewsVideos.Add(new NewsVideo { VideoUrl = video.VideoUrl });
+                    var existingVideoPath = Path.Combine("wwwroot/NewsVideos", Path.GetFileName(existingVideo.VideoUrl));
+                    if (System.IO.File.Exists(existingVideoPath))
+                    {
+                        System.IO.File.Delete(existingVideoPath);
+                    }
+                }
+
+                // Mevcut veritabanı kayıtlarını temizle
+                existingNews.NewsVideos.Clear();
+
+                // Yeni videoları ekle
+                foreach (var video in newsVideos)
+                {
+                    var newFileName = Guid.NewGuid() + Path.GetExtension(video.FileName);
+                    var filePath = Path.Combine("wwwroot/NewsVideos", newFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        video.CopyTo(stream);
+                    }
+
+                    if (!existingNews.NewsVideos.Any(v => v.VideoUrl == $"/NewsVideos/{newFileName}"))
+                    {
+                        existingNews.NewsVideos.Add(new NewsVideo { VideoUrl = $"/NewsVideos/{newFileName}" });
+                    }
                 }
             }
 
             _sql.SaveChanges();
-
             return Ok(new { Message = "Haber başarıyla güncellendi." });
         }
+
 
 
 
