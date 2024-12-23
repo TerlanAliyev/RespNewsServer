@@ -1,5 +1,93 @@
 [
   {
+    "ContainingType": "respNewsV8.Controllers.AdvertController",
+    "Method": "UpdateVisibility",
+    "RelativePath": "api/Advert/{id}/visibility",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "visibilityDto",
+        "Type": "respNewsV8.Controllers.AdvertController\u002BUpdateVisibilityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.AdvertController",
+    "Method": "Get",
+    "RelativePath": "api/Advert/adverts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.AdvertController",
+    "Method": "Delete",
+    "RelativePath": "api/Advert/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.AdvertController",
+    "Method": "UploadLogos",
+    "RelativePath": "api/Advert/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdvertId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdvertName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdvertContext",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdvertCoverFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdvertVideoUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdvertVisibility",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "respNewsV8.Controllers.CategoryController",
     "Method": "Post",
     "RelativePath": "api/Category",
@@ -524,6 +612,84 @@
       },
       {
         "Name": "LinkVisibility",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LogoController",
+    "Method": "UpdateVisibility",
+    "RelativePath": "api/Logo/{id}/visibility",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "visibilityDto",
+        "Type": "respNewsV8.Controllers.LogoController\u002BUpdateVisibilityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LogoController",
+    "Method": "Delete",
+    "RelativePath": "api/Logo/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LogoController",
+    "Method": "Get",
+    "RelativePath": "api/Logo/logos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.LogoController",
+    "Method": "UploadLogos",
+    "RelativePath": "api/Logo/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LogoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LogoName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LogoCoverUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "LogoVisibility",
         "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
@@ -1377,6 +1543,132 @@
         "Type": "System.Int32",
         "IsRequired": true
       },
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.SearchController",
+    "Method": "GetSearchInfographics",
+    "RelativePath": "api/Search/infographics/{query}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.SearchController",
+    "Method": "GetSearchLinks",
+    "RelativePath": "api/Search/link/{query}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.SearchController",
+    "Method": "GetSearchNewsPaper",
+    "RelativePath": "api/Search/newspaper/{query}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.SearchController",
+    "Method": "GetSearchSub",
+    "RelativePath": "api/Search/sub /{query}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.SearchController",
+    "Method": "GetSearchUsers",
+    "RelativePath": "api/Search/user/{query}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.SearchController",
+    "Method": "GetSearchVideos",
+    "RelativePath": "api/Search/videos/{query}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "query",
         "Type": "System.String",

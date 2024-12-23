@@ -24,6 +24,9 @@
     <Folder Include="wwwroot\CategoryCovers\" />
     <Folder Include="wwwroot\InfPhotos\" />
     <Folder Include="wwwroot\LinkPhotos\" />
+    <Folder Include="wwwroot\LogoPhotos\" />
+    <Folder Include="wwwroot\AdvertPhotos\" />
+    <Folder Include="wwwroot\AdvertVideos\" />
     <Folder Include="wwwroot\NewsVideos\" />
   </ItemGroup>
 

@@ -17,11 +17,15 @@ public partial class RespNewContext : DbContext
 
     public virtual DbSet<AdditionalLink> AdditionalLinks { get; set; }
 
+    public virtual DbSet<Advert> Adverts { get; set; }
+
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Language> Languages { get; set; }
 
     public virtual DbSet<LocationDatum> LocationData { get; set; }
+
+    public virtual DbSet<Logo> Logos { get; set; }
 
     public virtual DbSet<Messagess> Messagesses { get; set; }
 
@@ -57,6 +61,16 @@ public partial class RespNewContext : DbContext
 
             entity.Property(e => e.LinkName).HasMaxLength(2000);
             entity.Property(e => e.LinkVisibility).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<Advert>(entity =>
+        {
+            entity.HasKey(e => e.AdvertId).HasName("PK__Advert__4FE88F442CDA0620");
+
+            entity.ToTable("Advert");
+
+            entity.Property(e => e.AdvertName).HasMaxLength(200);
+            entity.Property(e => e.AdvertVisibility).HasDefaultValue(false);
         });
 
         modelBuilder.Entity<Category>(entity =>
@@ -97,6 +111,14 @@ public partial class RespNewContext : DbContext
             entity.Property(e => e.Region)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Logo>(entity =>
+        {
+            entity.HasKey(e => e.LogoId).HasName("PK__Logos__C620158D6747D59C");
+
+            entity.Property(e => e.LogoName).HasMaxLength(200);
+            entity.Property(e => e.LogoVisibility).HasDefaultValue(false);
         });
 
         modelBuilder.Entity<Messagess>(entity =>

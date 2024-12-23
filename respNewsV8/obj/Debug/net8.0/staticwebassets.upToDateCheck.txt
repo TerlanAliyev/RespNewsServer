@@ -1,3 +1,4 @@
+wwwroot\CategoryCovers\061c6152-93e1-4293-b0f2-c2e98406f459.png
 wwwroot\CategoryCovers\0ba30c56-2848-4a36-ba60-92db6147acc1.png
 wwwroot\CategoryCovers\0df1883a-eb49-4ad3-a830-69556d5d9697.jpg
 wwwroot\CategoryCovers\15eb537e-b0bf-475e-b0d3-827f3624cba2.png
@@ -8,9 +9,11 @@ wwwroot\CategoryCovers\65fa03fd-a0a3-4575-8bce-b622e66c0979.jpg
 wwwroot\CategoryCovers\68447756-84bd-4ef8-ac2d-acc8eac934aa.png
 wwwroot\CategoryCovers\6f58ccf5-2704-4563-8d08-0e3d83304619.jpg
 wwwroot\CategoryCovers\9ea958f6-4a5a-49c9-95aa-c739492711eb.png
+wwwroot\CategoryCovers\a039bcff-9eac-4c7b-89d5-ed5c1f26b7ac.png
 wwwroot\CategoryCovers\a57205f6-590b-4670-a903-253da4c23b19.jpg
 wwwroot\CategoryCovers\a89512bf-64c6-44af-b241-75a8d16d94a3.png
 wwwroot\CategoryCovers\b0cf1ee3-a986-42f7-a03f-150c3d88a4b4.png
+wwwroot\CategoryCovers\c6bcf9dd-a544-4231-9925-70df5b49e764.png
 wwwroot\CategoryCovers\d6d478f0-420c-4aa8-a45e-4c1329b4c188.png
 wwwroot\CategoryCovers\e27af149-245c-40ab-a58d-c33bfd34860b.png
 wwwroot\CategoryCovers\ec58c3a9-0f4b-4044-8d88-7db12e887279.png
@@ -18,6 +21,7 @@ wwwroot\CategoryCovers\f112fb09-891b-4aec-9f15-5e6786d14bd1.png
 wwwroot\CategoryCovers\fee824e0-b126-4190-a3e2-f8b497181cfd.png
 wwwroot\CategoryCovers\WhatsApp Görsel 2024-11-13 saat 19.44.18_e7c7959e.jpg
 wwwroot\InfPhotos\422631d3-6348-4532-8225-d2321fbdf4f3_Ekran görüntüsü 2024-12-13 174426.png
+wwwroot\InfPhotos\62316d1a-ba12-4d1c-88e1-9275242c400a.png
 wwwroot\InfPhotos\794cc1b9-7cac-4d98-b00d-9233d110e3e7.png
 wwwroot\InfPhotos\81680315-0fd9-4553-8892-7eae3cafac55.png
 wwwroot\InfPhotos\9fac0f20-c949-435f-b22b-09f970ed0810.png
@@ -26,13 +30,11 @@ wwwroot\InfPhotos\c011aade-779b-44fa-9e0e-15a52c772c45.png
 wwwroot\InfPhotos\d0adb40f-76f1-4ef0-bb5f-44e8cd106a34_Ekran görüntüsü 2024-12-19 135317.png
 wwwroot\InfPhotos\d9b13a01-ce26-4db1-a9b7-fe11f6b9689f.jpg
 wwwroot\InfPhotos\f59d31fb-d0ec-4277-b164-d1934315cf90.png
-wwwroot\LinkPhotos\037ce9e4-6840-417e-85ae-3a11a6d4d057_WhatsApp Görsel 2024-12-22 saat 13.39.28_1287b6c9.jpg
-wwwroot\LinkPhotos\0bffc27d-4686-499c-9217-50cfba23f2f0_Ekran görüntüsü 2024-11-24 021307.png
-wwwroot\LinkPhotos\28990499-bae6-4a39-a026-604dbfd8cece_Ekran görüntüsü 2024-12-19 135152.png
-wwwroot\LinkPhotos\5fa995ee-5750-4b64-915d-23c7ff3d13a6_9ffbfe6975-Misli-premyer-liqasi-xvii-turda-daha-iki-oyun-kecirilecek.jpeg
-wwwroot\LinkPhotos\974ec716-49d3-473e-a516-4c17d0548364_Ekran görüntüsü 2024-12-04 221652.png
-wwwroot\LinkPhotos\c616c950-ddf9-4b3d-9870-cfff3c77b61a_Ekran görüntüsü 2024-12-19 135152.png
-wwwroot\LinkPhotos\d7372f64-5e87-4c03-b14a-950223b74f5c_Ekran görüntüsü 2024-12-19 135123.png
+wwwroot\LogoPhotos\2b04a57f-08ed-4065-a184-4bee169164f8.png
+wwwroot\LogoPhotos\7ce5c16d-9efb-46e3-a770-661cc577ccc5.png
+wwwroot\LogoPhotos\7f59013a-e81a-44df-b09b-7e4d74cbc483.png
+wwwroot\LogoPhotos\8adcf3f0-d2f7-47af-9a09-bed746843977.png
+wwwroot\LogoPhotos\c2c5c2a1-9b2f-41fa-a665-e5737a0d0175.png
 wwwroot\NewspaperCovers\022c9de5-f4ac-4b68-a685-75a77ba7da72.png
 wwwroot\NewspaperCovers\05ffcfe2-ca7c-4415-b6f1-4ff833d7a924.png
 wwwroot\NewspaperCovers\106fc774-90c3-4976-8d81-362da4e58233.png
@@ -51,6 +53,7 @@ wwwroot\NewspaperCovers\b917d96b-f5a1-4785-9788-38609a06c8ef.png
 wwwroot\NewspaperCovers\c391763b-4aff-418d-b372-e4fb9600ad13.png
 wwwroot\NewspaperCovers\c7f81c4a-eb84-4307-82d1-28433b57d6ac.jpg
 wwwroot\NewspaperCovers\ca30c2b3-b81b-4725-8915-156c562c715d.png
+wwwroot\NewspaperCovers\d1e252da-76c5-4fff-9bb6-3a69238b1fd3.jpeg
 wwwroot\NewspaperCovers\dc8c6285-3b3d-4617-bac6-1449383e79a6.png
 wwwroot\NewspaperCovers\f28a4872-6a1c-4adf-af49-63be879f3e7b.png
 wwwroot\NewspaperCovers\slideshow-1.png
@@ -61,6 +64,7 @@ wwwroot\NewspaperPDF\08bff4e9-9cbf-4ebe-ad64-e8c4595749af.pdf
 wwwroot\NewspaperPDF\1054a866-76e0-406b-8aa8-7fea950c2e4a.pdf
 wwwroot\NewspaperPDF\14110c72-acf6-40ca-9779-d7b2660f494f.pdf
 wwwroot\NewspaperPDF\2437bdca-6b70-464c-841f-af994fdb739d.pdf
+wwwroot\NewspaperPDF\2e00291f-c848-43cc-89ad-265763c53852.pdf
 wwwroot\NewspaperPDF\2ebbaf83-0bb3-4b15-ba29-37f6a24a7818.pdf
 wwwroot\NewspaperPDF\2f9119a4-c01f-4eff-b40b-ab1aa55ee6d7.pdf
 wwwroot\NewspaperPDF\351d63b8-69a8-43c5-955a-b6f6d4a37174.pdf
@@ -83,12 +87,14 @@ wwwroot\NewspaperPDF\s2TERLAN.pdf
 wwwroot\NewspaperPDF\s3TERLAN.pdf
 wwwroot\NewsPhotos\0057b052-ba36-4b1c-866e-1dc33576c53b.png
 wwwroot\NewsPhotos\04642abb-dd08-433c-b943-15753835a11f.png
+wwwroot\NewsPhotos\102062d2-386d-4b51-bca5-203abfee0c1c.jpeg
 wwwroot\NewsPhotos\11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg
 wwwroot\NewsPhotos\15f97719-630e-49c8-961b-f2f14df17e2f.png
 wwwroot\NewsPhotos\1ad35e26-472f-4440-b279-da4f3ae772d9.png
 wwwroot\NewsPhotos\1dba5d68-7c99-4b07-be4d-1f79165460a2.png
 wwwroot\NewsPhotos\239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg
 wwwroot\NewsPhotos\394e4154-b02d-4d26-b677-8cb830764cbf.jpg
+wwwroot\NewsPhotos\43954308-631f-4b2d-91d8-dfc409f9d1f3.jpg
 wwwroot\NewsPhotos\4766ffdc-295d-4a15-88f2-9c5f5091fb77.png
 wwwroot\NewsPhotos\707ada84-2328-44d2-8ab7-67f2559731ae.jpg
 wwwroot\NewsPhotos\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg
@@ -97,7 +103,10 @@ wwwroot\NewsPhotos\b5ca2e87-97ef-4ff1-8c2c-4dbc2e9e9541.jpg
 wwwroot\NewsPhotos\b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png
 wwwroot\NewsPhotos\c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg
 wwwroot\NewsPhotos\d2cdffc5-d71d-402e-a7cf-111926694cf3.png
+wwwroot\NewsPhotos\db894a59-a0b4-4a4d-ad37-121e20790306.png
+wwwroot\NewsPhotos\dcdd6f43-fc2e-4f99-8e42-b5e63f5dc9ba.jpeg
 wwwroot\NewsPhotos\dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg
+wwwroot\NewsPhotos\e61b649b-6ee0-4455-8698-2206b0ff89fe.png
 wwwroot\NewsPhotos\e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg
 wwwroot\NewsPhotos\f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg
 wwwroot\NewsPhotos\f76f42fd-59b5-4285-a807-21da5bb4eb82.png
@@ -130,12 +139,14 @@ wwwroot\NewsVideos\e336b967-10c7-4385-9713-17087ca6eccb.png
 wwwroot\NewsVideos\fcaa24f4-ce2f-4d6c-805d-d60604150b84.mp4
 wwwroot\uploads\images\35eb127c-b3a3-4644-8b5b-d4e320de9b5f_WIN_20241216_11_28_46_Pro.jpg
 wwwroot\uploads\images\52c3a94c-c238-4ce0-ab07-0f418abbd34e_Ekran görüntüsü 2024-12-17 114003.png
+wwwroot\uploads\images\c4bbb0f4-b995-48ab-a829-6bdace84be2c_Ekran görüntüsü 2024-12-17 114003.png
 wwwroot\uploads\images\ef8e504e-9fdc-4d7e-a7db-784396ae6db8_WIN_20241117_02_38_14_Pro.jpg
 wwwroot\uploads\infographics\130febb5-4908-4eac-b13f-e25ecaaa5bb7_Ekran görüntüsü 2024-11-17 021742.png
 wwwroot\uploads\infographics\3ad9782c-6380-4514-b85c-f4f5d75d0d06_Ekran görüntüsü 2024-12-04 221652.png
 wwwroot\uploads\infographics\4f78286c-df17-45d0-93c5-27b1e8a3a083_Ekran görüntüsü 2024-11-17 021742.png
 wwwroot\uploads\infographics\8a9a5a96-70a2-4b6a-b910-30146772d789_WIN_20241215_13_11_41_Pro.jpg
 wwwroot\uploads\infographics\925b1fc1-f86d-42b6-ad0a-75d93f15220c_sqqqql.png
+wwwroot\uploads\pdfs\71f42d57-bd31-432d-81c8-4f6c5a530663_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf
 wwwroot\uploads\pdfs\7626395e-670c-4c4c-872b-adb1c994fad5_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf
 wwwroot\uploads\pdfs\d834a73b-2d5a-4533-93f6-64bcad18ec89_Azərbaycan Respublikasında sürüşmə ehtimallı zonaların təsnifatı.pdf
 wwwroot\uploads\pdfs\df3b5e59-9049-48b3-8e5e-95068890540d_Təhlükəli yoluxucu xəstəliklər.pdf

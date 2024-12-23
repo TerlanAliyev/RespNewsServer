@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("respNewsV8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b389c014ec523a45617be7fa47cc83be9db9ddc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a58433c82a15bd5e4f08582eb1e9c4796b0b25f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("respNewsV8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("respNewsV8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

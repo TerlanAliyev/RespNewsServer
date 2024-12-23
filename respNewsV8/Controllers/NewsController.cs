@@ -609,7 +609,7 @@ namespace respNewsV8.Controllers
                   NewsOwner =n.NewsOwner, /*+++*/
                   NewsAdmin=n.NewsAdmin
 
-              }).Skip(page*10).Take(10).ToList();
+              }).Skip(page*2).Take(2).ToList();
         }
 
 
