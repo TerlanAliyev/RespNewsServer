@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "78iEn4Q6Bio=",
+  "dgSpecHash": "OAWZk9jt7Mw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\respNewsV8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\devicedetector.net\\6.4.1\\devicedetector.net.6.4.1.nupkg.sha512",
     "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Terlan Aliyev\\.nuget\\packages\\litedb\\5.0.21\\litedb.5.0.21.nupkg.sha512",

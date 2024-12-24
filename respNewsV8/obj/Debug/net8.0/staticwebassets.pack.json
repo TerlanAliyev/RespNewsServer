@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\AdvertPhotos\\72647cc7-95de-4f39-9592-bc714e258b07.jpeg",
+      "PackagePath": "staticwebassets\\AdvertPhotos\\72647cc7-95de-4f39-9592-bc714e258b07.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\AdvertVideos\\23821e39-93c9-40ba-8e1a-b4feff065ba7.mp4",
+      "PackagePath": "staticwebassets\\AdvertVideos\\23821e39-93c9-40ba-8e1a-b4feff065ba7.mp4"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\CategoryCovers\\061c6152-93e1-4293-b0f2-c2e98406f459.png",
       "PackagePath": "staticwebassets\\CategoryCovers\\061c6152-93e1-4293-b0f2-c2e98406f459.png"
     },
@@ -129,6 +137,10 @@
       "PackagePath": "staticwebassets\\InfPhotos\\f59d31fb-d0ec-4277-b164-d1934315cf90.png"
     },
     {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\LinkPhotos\\25e8cba8-a0d9-4f0c-a1f6-ba0a0f12a787_9ffbfe6975-Misli-premyer-liqasi-xvii-turda-daha-iki-oyun-kecirilecek.jpeg",
+      "PackagePath": "staticwebassets\\LinkPhotos\\25e8cba8-a0d9-4f0c-a1f6-ba0a0f12a787_9ffbfe6975-Misli-premyer-liqasi-xvii-turda-daha-iki-oyun-kecirilecek.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\LogoPhotos\\2b04a57f-08ed-4065-a184-4bee169164f8.png",
       "PackagePath": "staticwebassets\\LogoPhotos\\2b04a57f-08ed-4065-a184-4bee169164f8.png"
     },
@@ -143,6 +155,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\LogoPhotos\\8adcf3f0-d2f7-47af-9a09-bed746843977.png",
       "PackagePath": "staticwebassets\\LogoPhotos\\8adcf3f0-d2f7-47af-9a09-bed746843977.png"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\LogoPhotos\\b52ab9f9-1e8a-4c74-9cce-b91f449de9b6.png",
+      "PackagePath": "staticwebassets\\LogoPhotos\\b52ab9f9-1e8a-4c74-9cce-b91f449de9b6.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\LogoPhotos\\c2c5c2a1-9b2f-41fa-a665-e5737a0d0175.png",
@@ -199,6 +215,10 @@
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg",
       "PackagePath": "staticwebassets\\NewsPhotos\\89c81473-0cf0-4ab4-a74b-41e899cdf5fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\9e062aae-1c03-414d-8b0d-694d209999f2.png",
+      "PackagePath": "staticwebassets\\NewsPhotos\\9e062aae-1c03-414d-8b0d-694d209999f2.png"
     },
     {
       "Id": "C:\\Users\\Terlan Aliyev\\Desktop\\16 last\\RespNewsServer\\respNewsV8\\wwwroot\\NewsPhotos\\WIN_20241216_11_28_46_Pro.jpg",

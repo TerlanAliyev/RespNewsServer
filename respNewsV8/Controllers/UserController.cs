@@ -55,21 +55,17 @@ namespace respNewsV8.Controllers
             }
         }
 
-
-
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginDto login)
         {
             try
             {
-                if (login == null || string.IsNullOrEmpty(login.UserNickName) || string.IsNullOrEmpty(login.UserPassword))
+                if (string.IsNullOrEmpty(login.UserNickName) || string.IsNullOrEmpty(login.UserPassword))
                 {
                     return BadRequest(new { Message = "Username and password are required" });
                 }
 
-                // Kullanıcı doğrulama
                 var user = _sql.Users.FirstOrDefault(u => u.UserNickName == login.UserNickName);
-                HttpContext.Session.SetString("UserId", user.UserId.ToString());
                 if (user == null || !_userService.IsValidUser(new User { UserNickName = login.UserNickName, UserPassword = login.UserPassword }))
                 {
                     return Unauthorized(new { Message = "Invalid username or password" });
@@ -78,21 +74,16 @@ namespace respNewsV8.Controllers
                 // JWT Token üretimi
                 var tokenString = _jwtService.GenerateJwtToken(user.UserNickName);
 
-                // Cookie ayarları
-                var cookieOptions = new CookieOptions
+                // TokenDto oluştur ve gönder
+                var tokenDto = new TokenDto
                 {
-                    HttpOnly = true, // JavaScript erişimini engelle
-                    Secure = true, // HTTPS üzerinden gönder
-                    SameSite = SameSiteMode.Strict, // CSRF saldırılarını önle
-                    Expires = DateTime.Now.AddMinutes(30) // Geçerlilik süresi
+                    Token = tokenString,
+                    UserName = user.UserName,
+                    UserRole = user.UserRole,
+                    Expiration = DateTime.Now.AddMinutes(30) // Örnek süre
                 };
 
-                // Cookie'ye ek bilgiler ekleyin
-                Response.Cookies.Append("jwtToken", tokenString, cookieOptions);
-                Response.Cookies.Append("userRole", user.UserRole, cookieOptions);
-                Response.Cookies.Append("userName", user.UserName, cookieOptions);
-
-                return Ok(new { Message = "Login successful" });
+                return Ok(tokenDto);
             }
             catch (Exception ex)
             {
@@ -100,13 +91,39 @@ namespace respNewsV8.Controllers
             }
         }
 
+
+
+
+
+        private void SetCookies(string token, User user)
+        {
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTime.Now.AddMinutes(30)
+            };
+
+            Response.Cookies.Append("jwtToken", token, cookieOptions);
+            Response.Cookies.Append("userRole", user.UserRole, cookieOptions);
+            Response.Cookies.Append("userName", user.UserName, cookieOptions);
+        }
+
+
         [HttpGet("getUserId")]
         public IActionResult GetUserId()
         {
             var userId = HttpContext.Session.GetString("UserId");
 
-            return Ok(new { userId});
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new { Message = "Session expired or user not logged in." });
+            }
+
+            return Ok(new { userId });
         }
+
 
 
 

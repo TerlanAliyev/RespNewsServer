@@ -45,9 +45,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"])),
-            RoleClaimType = ClaimTypes.Role
+            RoleClaimType = "userRole" // Role claim'i olarak userRole kullanýlýyor
         };
     });
+
 
 // Authorization servisini ekleme
 builder.Services.AddAuthorization(options =>
@@ -62,22 +63,25 @@ builder.Services.AddAuthorization(options =>
 // CORS yapýlandýrmasý
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins("https://localhost:44395") // Frontend URL'sini belirtin
+              .AllowAnyHeader()
               .AllowAnyMethod()
-              .AllowAnyHeader();
+              .AllowCredentials(); // Credentials'ý izinli hale getir
     });
+});
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Session zaman aþýmý
+    options.Cookie.HttpOnly = true; // JavaScript eriþimini engelle
+    options.Cookie.IsEssential = true; // GDPR uyumluluðu için gerekli
 });
 builder.Services.AddSingleton<ITempDataDictionaryFactory, TempDataDictionaryFactory>();
 builder.Services.AddControllersWithViews(); // Bu, TempData'yý ve diðer servisleri kaydeder
 builder.Services.AddDistributedMemoryCache(); // Oturum verilerini saklamak için
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Oturumun sona erme süresi
-    options.Cookie.HttpOnly = true; // Güvenlik için çerez sadece HTTP üzerinden eriþilebilir
-    options.Cookie.IsEssential = true; // GDPR uyumluluðu için gerekli
-});
+builder.Services.AddSession(); // Session'ý etkinleþtir
+builder.Services.AddControllers();
 
 
 // Yetkilendirme
@@ -96,20 +100,18 @@ builder.Services.AddScoped<IpHelper>();  // IP yardýmcý sýnýfýný ekliyoruz
 
 // Uygulama oluþturuluyor
 var app = builder.Build();
-app.UseCors("AllowAll");
+app.UseCors("AllowSpecificOrigin");
 
 
 
 
-app.UseHttpsRedirection();
-app.UseSession(); // Oturum middleware'ini ekleyin
-app.UseAuthentication();
-app.UseAuthorization();
-
-
-
-
-
+app.UseCors("AllowSpecificOrigin");
+app.UseStaticFiles();
+app.UseSession();
+app.UseRouting();
+app.UseAuthentication(); // Kimlik doðrulama middleware'i
+app.UseAuthorization();  // Yetkilendirme middleware'i
+app.MapControllers();
 
 
 app.UseStaticFiles();
@@ -119,15 +121,6 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-// Gerekli middleware'ler
-app.UseRouting();
-
-// Kimlik doðrulama ve yetkilendirme
-app.UseAuthentication();
-app.UseAuthorization();
-
-// API controller'larýný haritalama
-app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",

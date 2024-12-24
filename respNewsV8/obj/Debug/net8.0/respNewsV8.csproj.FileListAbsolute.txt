@@ -910,3 +910,4 @@ C:\Users\Terlan Aliyev\Desktop\16 last\RespNewsServer\respNewsV8\obj\Debug\net8.
 C:\Users\Terlan Aliyev\Desktop\16 last\RespNewsServer\respNewsV8\obj\Debug\net8.0\respNewsV8.csproj.Up2Date
 C:\Users\Terlan Aliyev\Desktop\16 last\RespNewsServer\respNewsV8\obj\Debug\net8.0\respNewsV8.genruntimeconfig.cache
 C:\Users\Terlan Aliyev\Desktop\16 last\RespNewsServer\respNewsV8\obj\Debug\net8.0\ref\respNewsV8.dll
+C:\Users\Terlan Aliyev\Desktop\16 last\RespNewsServer\respNewsV8\bin\Debug\net8.0\BCrypt.Net-Next.dll

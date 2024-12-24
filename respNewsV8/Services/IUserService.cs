@@ -1,89 +1,67 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.Extensions.Logging;
 using respNewsV8.Models;
 
 namespace respNewsV8.Services
 {
-    // Kullanıcı hizmet arayüzü
     public interface IUserService
     {
         User? ValidateUser(string userNickName, string password);
         bool IsValidUser(User user);
     }
 
-    // Kullanıcı hizmet sınıfı
     public class UserService : IUserService
     {
         private readonly RespNewContext _context;
+        private readonly ILogger<UserService> _logger;
 
-        // Bağımlılık enjeksiyonu ile veritabanı bağlamını al
-        public UserService(RespNewContext context)
+        public UserService(RespNewContext context, ILogger<UserService> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
-        // Kullanıcı doğrulama metodu
         public User? ValidateUser(string userNickName, string password)
         {
             try
             {
                 // Kullanıcıyı veritabanında ara
-                var foundUser = _context.Users
-                    .FirstOrDefault(u => u.UserNickName == userNickName);
+                var foundUser = _context.Users.FirstOrDefault(u => u.UserNickName == userNickName);
 
-                // Kullanıcı bulunamadıysa veya şifre yanlışsa
-                if (foundUser == null || foundUser.UserPassword != password)
+                // Kullanıcı bulunamadıysa hata fırlat
+                if (foundUser == null)
                 {
-                    return null;
+                    _logger.LogInformation($"User not found: {userNickName}");
+                    throw new UnauthorizedAccessException("User not found");
                 }
 
-                // Kullanıcı rolünü kontrol et
-                if (foundUser.UserRole != "FullAdmin" && foundUser.UserRole!="Admin") // İstenilen rolü kontrol edebilirsiniz
+                // Şifre kontrolü (hashleme yapılmadan)
+                if (foundUser.UserPassword != password)
                 {
-                    return null;
+                    _logger.LogInformation($"Invalid password for user: {userNickName}");
+                    throw new UnauthorizedAccessException("Invalid password");
                 }
 
-                // Kullanıcı bilgilerini döndür
-                return foundUser;
+                return foundUser; // Kullanıcı geçerli
             }
             catch (Exception ex)
             {
-                // Hataları konsola yaz
-                Console.WriteLine($"Hata: {ex.Message}");
-                return null;
+                _logger.LogError(ex, "An error occurred while validating user");
+                throw;
             }
         }
 
-
-
-        // Kullanıcı geçerliliğini kontrol eden metod
         public bool IsValidUser(User user)
         {
             try
             {
-                // Kullanıcıyı veritabanında ara
-                var foundUser = _context.Users
-                    .FirstOrDefault(u => u.UserNickName == user.UserNickName);
-
-                // Kullanıcı bulunamadıysa veya şifre yanlışsa
-                if (foundUser == null || foundUser.UserPassword != user.UserPassword)
-                {
-                    return false;
-                }
-
-                // Kullanıcı rolünü kontrol et
-                if (foundUser.UserRole != "FullAdmin")
-                {
-                    return false;
-                }
-
-                return true; // Kullanıcı geçerli
+                var validatedUser = ValidateUser(user.UserNickName, user.UserPassword);
+                return validatedUser != null;
             }
-            catch (Exception ex)
+            catch
             {
-                // Hataları konsola yaz
-                Console.WriteLine($"Hata: {ex.Message}");
-                return false;
+                return false; // Hata durumunda false döndür
             }
         }
+
     }
 }

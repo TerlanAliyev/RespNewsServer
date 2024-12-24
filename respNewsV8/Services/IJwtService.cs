@@ -25,37 +25,34 @@ namespace respNewsV8.Services
 
         public string GenerateJwtToken(string username)
         {
-            try
+            var user = _sql.Users.FirstOrDefault(u => u.UserNickName == username);
+
+            if (user == null)
             {
-                var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
-                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-                // Kullanıcıyı veritabanından al
-                var user = _sql.Users.FirstOrDefault(u => u.UserNickName == username);
-                if (user == null) throw new UnauthorizedAccessException("User not found");
-
-                var claims = new[]
-                {
-                new Claim(ClaimTypes.Name, username),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Role, user.UserRole)  // Rolü JWT'ye ekliyoruz
-            };
-
-                var token = new JwtSecurityToken(
-                    issuer: _configuration["Jwt:Issuer"],
-                    audience: _configuration["Jwt:Audience"],
-                    claims: claims,
-                    expires: DateTime.Now.AddMinutes(30),
-                    signingCredentials: credentials
-                );
-
-                return new JwtSecurityTokenHandler().WriteToken(token);
+                throw new UnauthorizedAccessException("User not found");
             }
-            catch (Exception ex)
+
+            var claims = new[]
             {
-                throw new UnauthorizedAccessException("Token generation failed", ex);
-            }
+        new Claim("userName", user.UserName), // Kullanıcı adını ekliyoruz
+        new Claim("userRole", user.UserRole) ,// userRole claim'ini ekleyin
+        new Claim("userId", user.UserId.ToString()) // Kullanıcı ID
+    };
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(30),
+                signingCredentials: new SigningCredentials(
+                    new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"])),
+                    SecurityAlgorithms.HmacSha256
+                )
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
     }
 
 

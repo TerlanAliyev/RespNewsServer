@@ -56,7 +56,6 @@ namespace respNewsV8.Controllers
 
 
 
-
         //umumi
         [HttpGet("count")]
         public IActionResult GetNewsCount()
@@ -557,7 +556,7 @@ namespace respNewsV8.Controllers
 
 
         // Adminler ucun GET
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "FullAdmin,SuperAdmin")]
         [HttpGet("admin/{pageNumber}")]
         public List<News> GetForAdmins(DateTime? startDate = null, DateTime? endDate = null,int pageNumber=0)
         {
