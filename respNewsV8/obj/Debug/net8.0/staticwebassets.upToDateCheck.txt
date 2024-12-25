@@ -91,11 +91,13 @@ wwwroot\NewspaperPDF\s2TERLAN.pdf
 wwwroot\NewspaperPDF\s3TERLAN.pdf
 wwwroot\NewsPhotos\0057b052-ba36-4b1c-866e-1dc33576c53b.png
 wwwroot\NewsPhotos\04642abb-dd08-433c-b943-15753835a11f.png
+wwwroot\NewsPhotos\05466b3c-52d7-4518-a49d-688bffa2c8cf.jpeg
 wwwroot\NewsPhotos\102062d2-386d-4b51-bca5-203abfee0c1c.jpeg
 wwwroot\NewsPhotos\11e46df2-7a9e-4378-aed2-9f9a53d6d86a.jpg
 wwwroot\NewsPhotos\15f97719-630e-49c8-961b-f2f14df17e2f.png
 wwwroot\NewsPhotos\1ad35e26-472f-4440-b279-da4f3ae772d9.png
 wwwroot\NewsPhotos\1dba5d68-7c99-4b07-be4d-1f79165460a2.png
+wwwroot\NewsPhotos\2159a51c-103a-4b1a-9cbb-43134d1676e5.jpeg
 wwwroot\NewsPhotos\239a5ddd-4dd6-4c4f-94c8-00656ae5b85b.jpg
 wwwroot\NewsPhotos\394e4154-b02d-4d26-b677-8cb830764cbf.jpg
 wwwroot\NewsPhotos\43954308-631f-4b2d-91d8-dfc409f9d1f3.jpg
@@ -106,6 +108,7 @@ wwwroot\NewsPhotos\9e062aae-1c03-414d-8b0d-694d209999f2.png
 wwwroot\NewsPhotos\aaa73d92-b6c9-4e05-9c4f-2e4219e72544.jpg
 wwwroot\NewsPhotos\b5ca2e87-97ef-4ff1-8c2c-4dbc2e9e9541.jpg
 wwwroot\NewsPhotos\b92ac6ff-0528-44d7-ace1-ad8aaa951bbc.png
+wwwroot\NewsPhotos\bda39b02-c113-4282-a46f-a5bf1d67f8c1.jpeg
 wwwroot\NewsPhotos\c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg
 wwwroot\NewsPhotos\d2cdffc5-d71d-402e-a7cf-111926694cf3.png
 wwwroot\NewsPhotos\db894a59-a0b4-4a4d-ad37-121e20790306.png
@@ -113,6 +116,7 @@ wwwroot\NewsPhotos\dcdd6f43-fc2e-4f99-8e42-b5e63f5dc9ba.jpeg
 wwwroot\NewsPhotos\dfbfc54b-555c-4c94-8260-d4d453d93b27.jpg
 wwwroot\NewsPhotos\e61b649b-6ee0-4455-8698-2206b0ff89fe.png
 wwwroot\NewsPhotos\e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg
+wwwroot\NewsPhotos\e768c5e1-837d-4856-b6a5-eb1fa95bdb9f.jpeg
 wwwroot\NewsPhotos\f1989d25-5d46-4cfe-bf9d-d1368600ac69.jpg
 wwwroot\NewsPhotos\f76f42fd-59b5-4285-a807-21da5bb4eb82.png
 wwwroot\NewsPhotos\sqqqql.png

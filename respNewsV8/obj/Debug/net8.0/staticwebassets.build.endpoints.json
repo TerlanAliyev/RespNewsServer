@@ -3529,6 +3529,88 @@
       ]
     },
     {
+      "Route": "NewsPhotos/05466b3c-52d7-4518-a49d-688bffa2c8cf.3plycyzbe4.jpeg",
+      "AssetFile": "NewsPhotos/05466b3c-52d7-4518-a49d-688bffa2c8cf.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 08:42:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/05466b3c-52d7-4518-a49d-688bffa2c8cf.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/05466b3c-52d7-4518-a49d-688bffa2c8cf.jpeg",
+      "AssetFile": "NewsPhotos/05466b3c-52d7-4518-a49d-688bffa2c8cf.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 08:42:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
       "Route": "NewsPhotos/102062d2-386d-4b51-bca5-203abfee0c1c.3plycyzbe4.jpeg",
       "AssetFile": "NewsPhotos/102062d2-386d-4b51-bca5-203abfee0c1c.jpeg",
       "Selectors": [],
@@ -3935,6 +4017,88 @@
         {
           "Name": "label",
           "Value": "NewsPhotos/1dba5d68-7c99-4b07-be4d-1f79165460a2.png"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/2159a51c-103a-4b1a-9cbb-43134d1676e5.3plycyzbe4.jpeg",
+      "AssetFile": "NewsPhotos/2159a51c-103a-4b1a-9cbb-43134d1676e5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 18:24:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/2159a51c-103a-4b1a-9cbb-43134d1676e5.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/2159a51c-103a-4b1a-9cbb-43134d1676e5.jpeg",
+      "AssetFile": "NewsPhotos/2159a51c-103a-4b1a-9cbb-43134d1676e5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 18:24:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },
@@ -4841,6 +5005,88 @@
       ]
     },
     {
+      "Route": "NewsPhotos/bda39b02-c113-4282-a46f-a5bf1d67f8c1.3plycyzbe4.jpeg",
+      "AssetFile": "NewsPhotos/bda39b02-c113-4282-a46f-a5bf1d67f8c1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 18:24:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/bda39b02-c113-4282-a46f-a5bf1d67f8c1.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/bda39b02-c113-4282-a46f-a5bf1d67f8c1.jpeg",
+      "AssetFile": "NewsPhotos/bda39b02-c113-4282-a46f-a5bf1d67f8c1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 18:24:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        }
+      ]
+    },
+    {
       "Route": "NewsPhotos/c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg",
       "AssetFile": "NewsPhotos/c8cb564d-27ea-47d7-ad5f-e85f930b5ed7.jpg",
       "Selectors": [],
@@ -5411,6 +5657,88 @@
         {
           "Name": "label",
           "Value": "NewsPhotos/e715d04b-0c8c-4117-8244-7cc3f7b48f30.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/e768c5e1-837d-4856-b6a5-eb1fa95bdb9f.3plycyzbe4.jpeg",
+      "AssetFile": "NewsPhotos/e768c5e1-837d-4856-b6a5-eb1fa95bdb9f.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 18:28:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3plycyzbe4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
+        },
+        {
+          "Name": "label",
+          "Value": "NewsPhotos/e768c5e1-837d-4856-b6a5-eb1fa95bdb9f.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "NewsPhotos/e768c5e1-837d-4856-b6a5-eb1fa95bdb9f.jpeg",
+      "AssetFile": "NewsPhotos/e768c5e1-837d-4856-b6a5-eb1fa95bdb9f.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 18:28:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+afgiaY9PVr+LQttVDleTaaRsuYeShk2tYgic3/yX0="
         }
       ]
     },

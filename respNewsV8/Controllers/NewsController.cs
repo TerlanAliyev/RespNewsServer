@@ -608,7 +608,7 @@ namespace respNewsV8.Controllers
                   NewsOwner =n.NewsOwner, /*+++*/
                   NewsAdmin=n.NewsAdmin
 
-              }).Skip(page*2).Take(2).ToList();
+              }).Skip(page*20).Take(20).ToList();
         }
 
 
