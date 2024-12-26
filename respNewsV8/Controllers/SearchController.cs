@@ -27,7 +27,7 @@ namespace respNewsV8.Controllers
             return language.LanguageId;
         }
         //For news
-        /* -https://localhost:44314/api/search/1/yusif/0*/
+        /* -https://localhost:44314/api/search/1/yusif/0*/ 
         [HttpGet("{langCode}/{query}/{pageNumber?}")]
         public async Task<IActionResult> GetSearch(int langCode, string query, int pageNumber = 0)
         {

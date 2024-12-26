@@ -33,6 +33,12 @@ namespace respNewsV8.Controllers
             var statistics = await _newsStatisticsService.GetOwnerYearlyMonthlyStatisticsAsync();
             return Ok(statistics);
         }
+        [HttpGet("AdminMonthlyStatistics")]
+        public async Task<IActionResult> GetAdminMonthlyStatistics()
+        {
+            var statistics = await _newsStatisticsService.GetAdminYearlyMonthlyStatisticsAsync();
+            return Ok(statistics);
+        }
         //Category Count
         [HttpGet("CategoryNewsCount")]
         public async Task<IActionResult> GetCategoryNewsCount()

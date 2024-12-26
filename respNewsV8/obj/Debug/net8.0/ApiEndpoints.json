@@ -1705,6 +1705,16 @@
   },
   {
     "ContainingType": "respNewsV8.Controllers.StatisticController",
+    "Method": "GetAdminMonthlyStatistics",
+    "RelativePath": "api/Statistic/AdminMonthlyStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "respNewsV8.Controllers.StatisticController",
     "Method": "GetCategoryNewsCount",
     "RelativePath": "api/Statistic/CategoryNewsCount",
     "HttpMethod": "GET",

@@ -59,13 +59,11 @@ namespace respNewsV8.Services
 
 
 
-
-
         public async Task<List<AdminYearlyMonthlyStatsDto>> GetAdminYearlyMonthlyStatisticsAsync()
         {
             var statistics = await (from n in _sql.News
                                     join o in _sql.Users on n.NewsAdminId equals o.UserId
-                                    where n.NewsDate.HasValue
+                                    where n.NewsDate.HasValue && n.NewsStatus == true && n.NewsVisibility == true
                                     group n by new { o.UserName, Year = n.NewsDate.Value.Year, Month = n.NewsDate.Value.Month } into g
                                     select new
                                     {

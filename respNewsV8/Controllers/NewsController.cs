@@ -493,7 +493,7 @@ namespace respNewsV8.Controllers
 
 
 
-        ///  GET BY ID
+        ///  GET BY ID -https://localhost:44314/api/news/id/1130
         [HttpGet("id/{id}")]
         public ActionResult GetById(int id)
         {
