@@ -28,7 +28,13 @@
     <Folder Include="wwwroot\LogoPhotos\" />
     <Folder Include="wwwroot\AdvertPhotos\" />
     <Folder Include="wwwroot\AdvertVideos\" />
+    <Folder Include="wwwroot\NewspaperCovers\" />
+    <Folder Include="wwwroot\NewspaperPDF\" />
+    <Folder Include="wwwroot\NewsPhotos\" />
     <Folder Include="wwwroot\NewsVideos\" />
+    <Folder Include="wwwroot\uploads\images\" />
+    <Folder Include="wwwroot\uploads\infographics\" />
+    <Folder Include="wwwroot\uploads\pdfs\" />
   </ItemGroup>
 
 </Project>

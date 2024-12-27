@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\Terlan\source\repos\respNewsV8\respNewsV8\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-11-29T06:42:51.4518978Z||;True|2024-11-29T10:40:53.6728628+04:00||;True|2024-11-28T12:23:18.2240297+04:00||;True|2024-11-28T10:27:02.3922814+04:00||;True|2024-11-28T09:48:18.1809176+04:00||;True|2024-11-27T22:18:49.0356653+04:00||;True|2024-11-27T21:39:15.8419129+04:00||;</History>
+    <_PublishTargetUrl>C:\Users\Terlan Aliyev\Desktop\16 last\RespNewsServer\respNewsV8\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-12-27T07:37:56.5355039Z||;True|2024-12-27T11:37:44.9755842+04:00||;True|2024-12-27T11:24:15.6229887+04:00||;True|2024-12-27T10:52:07.4119966+04:00||;True|2024-11-29T10:42:51.4518978+04:00||;True|2024-11-29T10:40:53.6728628+04:00||;True|2024-11-28T12:23:18.2240297+04:00||;True|2024-11-28T10:27:02.3922814+04:00||;True|2024-11-28T09:48:18.1809176+04:00||;True|2024-11-27T22:18:49.0356653+04:00||;True|2024-11-27T21:39:15.8419129+04:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

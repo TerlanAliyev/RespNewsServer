@@ -65,7 +65,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.WithOrigins("https://localhost:44395") // Frontend URL'sini belirtin
+        policy.WithOrigins("https://news.ishop.az", "https://localhost:44395") // Frontend URL'sini belirtin
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials(); // Credentials'ý izinli hale getir

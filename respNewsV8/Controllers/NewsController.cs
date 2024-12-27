@@ -151,7 +151,7 @@ namespace respNewsV8.Controllers
                     n.NewsYoutubeLink,
                     n.NewsPhotos,
                     n.NewsVideos
-                }).Skip(page * 3).Take(3).ToList();
+                }).Skip(page * 50).Take(50).ToList();
 
             if (!newsList.Any())
             {
@@ -480,7 +480,7 @@ namespace respNewsV8.Controllers
                     n.NewsTags,
                     n.NewsPhotos,
                     n.NewsVideos
-                }).Skip(page * 3).Take(3).ToList();
+                }).Skip(page * 10).Take(10).ToList();
 
             if (!newsList.Any())
             {
@@ -556,7 +556,7 @@ namespace respNewsV8.Controllers
 
 
         // Adminler ucun GET
-        [Authorize(Roles = "FullAdmin,SuperAdmin")]
+        //[Authorize(Roles = "FullAdmin,SuperAdmin")]
         [HttpGet("admin/{pageNumber}")]
         public List<News> GetForAdmins(DateTime? startDate = null, DateTime? endDate = null,int pageNumber=0)
         {
