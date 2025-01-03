@@ -232,7 +232,7 @@ namespace respNewsV8.Controllers
             }
 
             // PDF document upload
-            if (newspaperDto.NewspaperPdfFile != null && newspaperDto.NewspaperPdfFile.Length > 0)
+            if (newspaperDto.NewspaperPdfFile != null && newspaperDto.NewspaperPdfFile.Length > 1)
             {
                 var pdfFileExtension = Path.GetExtension(newspaperDto.NewspaperPdfFile.FileName);
                 var pdfFileName = Guid.NewGuid().ToString() + pdfFileExtension; // Rastgele isim oluştur

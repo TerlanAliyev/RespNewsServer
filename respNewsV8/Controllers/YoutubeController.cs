@@ -22,6 +22,7 @@ namespace respNewsV8.Controllers
             int page = pageNumber;
 
             var videos = _sql.Ytvideos
+                .OrderByDescending(x=>x.VideoDate)
                 .Skip(page * 10).Take(10).
                 ToList();
             return Ok(videos);

@@ -24,7 +24,7 @@ namespace respNewsV8.Controllers
         [HttpGet]
         public async Task<IActionResult>Get()
         { 
-            var links=_sql.AdditionalLinks;
+            var links=_sql.AdditionalLinks.Where(x=>x.LinkVisibility==true);
             return Ok(links);
         }
 

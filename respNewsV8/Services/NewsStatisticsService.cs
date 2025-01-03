@@ -15,9 +15,13 @@ namespace respNewsV8.Services
 
         public async Task<List<OwnerYearlyMonthlyStatsDto>> GetOwnerYearlyMonthlyStatisticsAsync()
         {
+            var currentYear = DateTime.Now.Year;
             var statistics = await (from n in _sql.News
                                     join o in _sql.Owners on n.NewsOwnerId equals o.OwnerId
-                                    where n.NewsDate.HasValue && n.NewsStatus == true && n.NewsVisibility == true
+                                    where n.NewsDate.HasValue
+                                          && n.NewsStatus == true
+                                          && n.NewsVisibility == true
+                                          && n.NewsDate.Value.Year == currentYear // Şu yılın filtresi
                                     group n by new { o.OwnerName, Year = n.NewsDate.Value.Year, Month = n.NewsDate.Value.Month } into g
                                     select new
                                     {
@@ -26,7 +30,8 @@ namespace respNewsV8.Services
                                         Month = g.Key.Month,
                                         NewsCount = g.Count()
                                     })
-                                     .ToListAsync();
+                                    .ToListAsync();
+
 
             var result = statistics
                 .GroupBy(s => s.OwnerName)
@@ -61,9 +66,10 @@ namespace respNewsV8.Services
 
         public async Task<List<AdminYearlyMonthlyStatsDto>> GetAdminYearlyMonthlyStatisticsAsync()
         {
+            var currentYear = DateTime.Now.Year;
             var statistics = await (from n in _sql.News
                                     join o in _sql.Users on n.NewsAdminId equals o.UserId
-                                    where n.NewsDate.HasValue && n.NewsStatus == true && n.NewsVisibility == true
+                                    where n.NewsDate.HasValue && n.NewsStatus == true && n.NewsVisibility == true && n.NewsDate.Value.Year ==currentYear   
                                     group n by new { o.UserName, Year = n.NewsDate.Value.Year, Month = n.NewsDate.Value.Month } into g
                                     select new
                                     {
