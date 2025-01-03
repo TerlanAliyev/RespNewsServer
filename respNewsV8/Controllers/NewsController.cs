@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using System.IO;
 using respNewsV8.Controllers;
 using respNewsV8.Models;
-using Microsoft.AspNetCore.RateLimiting;
 using respNewsV8.Services;
 using YamlDotNet.Core.Tokens;
 using YamlDotNet.Core;
@@ -153,10 +152,6 @@ namespace respNewsV8.Controllers
                     n.NewsVideos
                 }).Skip(page * 50).Take(50).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{langCode}' için uygun haber bulunamadı.");
-            }
 
             return Ok(newsList);
         }
@@ -209,12 +204,9 @@ namespace respNewsV8.Controllers
                     n.NewsTags,
                     n.NewsPhotos,
                     n.NewsVideos
-                }).Take(10).ToList();
+                }).Take(5).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{langCode}' için bugün uygun haber bulunamadı.");
-            }
+          
 
             return Ok(newsList);
         }
@@ -261,12 +253,9 @@ namespace respNewsV8.Controllers
                     n.NewsTags,
                     n.NewsPhotos,
                     n.NewsVideos
-                }).Take(10).ToList();
+                }).Take(5).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{langCode}' için bu hafta uygun haber bulunamadı.");
-            }
+          
 
             return Ok(newsList);
         }
@@ -314,12 +303,9 @@ namespace respNewsV8.Controllers
                     n.NewsTags,
                     n.NewsPhotos,
                     n.NewsVideos
-                }).Take(10).ToList();
+                }).Take(5).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{langCode}' için bu ay uygun haber bulunamadı.");
-            }
+          
 
             return Ok(newsList);
         }
@@ -365,12 +351,9 @@ namespace respNewsV8.Controllers
                     n.NewsTags,
                     n.NewsPhotos,
                     n.NewsVideos
-                }).Take(10).ToList();
+                }).Take(5).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{langCode}' için bu ay uygun haber bulunamadı.");
-            }
+       
 
             return Ok(newsList);
         }
@@ -428,10 +411,7 @@ namespace respNewsV8.Controllers
                     n.NewsVideos
                 }).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{RatingCode}' için uygun haber bulunamadı.");
-            }
+           
 
             return Ok(newsList);
         }
@@ -482,10 +462,6 @@ namespace respNewsV8.Controllers
                     n.NewsVideos
                 }).Skip(page * 10).Take(10).ToList();
 
-            if (!newsList.Any())
-            {
-                return NotFound($"Dil kodu '{langCode}' için uygun haber bulunamadı.");
-            }
 
             return Ok(newsList);
         }
@@ -558,19 +534,19 @@ namespace respNewsV8.Controllers
         // Adminler ucun GET
         //[Authorize(Roles = "FullAdmin,SuperAdmin")]
         [HttpGet("admin/{pageNumber}")]
-        public List<News> GetForAdmins(DateTime? startDate = null, DateTime? endDate = null,int pageNumber=0)
+        public List<News> GetForAdmins(DateTime? startDate = null, DateTime? endDate = null, int pageNumber = 0)
         {
             int page = pageNumber;
 
             var query = _sql.News
-                .Where(n => n.NewsStatus == true )
+                .Where(n => n.NewsStatus == true)
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsLang)
                 .Include(n => n.NewsCategory)
                 .Include(n => n.NewsPhotos)
                 .Include(n => n.NewsOwner)
-                .Include(n=>n.NewsAdmin)
-                .Include(n=>n.NewsVideos)
+                .Include(n => n.NewsAdmin)
+                .Include(n => n.NewsVideos)
                 .AsQueryable();
 
             if (startDate.HasValue)
@@ -585,11 +561,11 @@ namespace respNewsV8.Controllers
 
             return query
                 .OrderByDescending(x => x.NewsUpdateDate)
-                .ThenByDescending(x => x.NewsDate) 
+                .ThenByDescending(x => x.NewsDate)
               .Select(n => new News
               {
                   NewsId = n.NewsId,
-                  NewsTitle = n.NewsTitle,  /*+++*/ 
+                  NewsTitle = n.NewsTitle,  /*+++*/
                   NewsContetText = n.NewsContetText,  /*+++*/
                   NewsDate = n.NewsDate,
                   NewsCategoryId = n.NewsCategoryId,
@@ -605,11 +581,14 @@ namespace respNewsV8.Controllers
                   NewsPhotos = n.NewsPhotos,
                   NewsVideos = n.NewsVideos,
                   NewsTags = n.NewsTags,
-                  NewsOwner =n.NewsOwner, /*+++*/
-                  NewsAdmin=n.NewsAdmin
+                  NewsOwner = n.NewsOwner, /*+++*/
+                  NewsAdmin = n.NewsAdmin
 
-              }).Skip(page*20).Take(20).ToList();
+              }).Skip(page * 10).Take(10).ToList();
         }
+
+
+
 
 
 
@@ -624,7 +603,7 @@ namespace respNewsV8.Controllers
                 .AsQueryable();
 
             // Sadece ratingi 5 olan xeberler
-            query = query.Where(n => n.NewsRating == 5 && n.NewsStatus==true);
+            query = query.Where(n => n.NewsRating == 5 && n.NewsStatus==true && n.NewsVisibility==true);
 
             // Tarix aralığına göre filtr
             if (startDate.HasValue)

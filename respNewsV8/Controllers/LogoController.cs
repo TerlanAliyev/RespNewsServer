@@ -16,7 +16,7 @@ namespace respNewsV8.Controllers
 
         [HttpGet("logos")]
         public IActionResult Get() { 
-            var a=_sql.Logos;
+            var a=_sql.Logos.Where(x=>x.LogoVisibility==true);
             return Ok(a);
         }
 

@@ -37,7 +37,7 @@ namespace respNewsV8.Controllers
                 .Include(x => x.NewsOwner)
                 .Include(x => x.NewsCategory)
                 .Include(x => x.NewsLang)
-                .Where(x => x.NewsStatus == true);
+                .Where(x => x.NewsStatus == true && x.NewsVisibility==true);
 
             // LangId için filtreleme yap (langCode null veya 0 değilse)
             if (langCode > 0)
@@ -169,7 +169,7 @@ namespace respNewsV8.Controllers
 
             var queryable = _sql.Ytvideos.AsQueryable();
 
-            queryable = queryable.Where(x => x.VideoTitle.Contains(query));
+            queryable = queryable.Where(x => x.VideoTitle.Contains(query) && x.VideoStatus==true);
 
             var results = await queryable
                 .Select(n => new
@@ -205,7 +205,7 @@ namespace respNewsV8.Controllers
 
             var queryable = _sql.AdditionalLinks.AsQueryable();
 
-            queryable = queryable.Where(x => x.LinkName.Contains(query));
+            queryable = queryable.Where(x => x.LinkName.Contains(query) && x.LinkVisibility==true);
 
             var results = await queryable
                 .Select(n => new

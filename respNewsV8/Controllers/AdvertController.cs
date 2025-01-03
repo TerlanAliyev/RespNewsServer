@@ -16,7 +16,7 @@ namespace respNewsV8.Controllers
 
         [HttpGet("adverts")]
         public IActionResult Get() { 
-            var a=_sql.Adverts;
+            var a=_sql.Adverts.Where(x=>x.AdvertVisibility==true);
             return Ok(a);
         }
 
